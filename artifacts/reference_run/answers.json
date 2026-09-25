@@ -1,0 +1,311 @@
+[
+  {
+    "expected_abstention": false,
+    "gold_answer": "Yes. It renews automatically for successive 12-month periods unless either party gives at least 30 days' written notice.",
+    "id": "q1",
+    "prediction": {
+      "abstained": false,
+      "answer": "The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term.",
+      "citations": [
+        {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "page": 1,
+          "quote": "The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term.",
+          "source_id": "doc_f070d063415e53c8:p1:c002"
+        }
+      ],
+      "question": "Does the Northstar agreement renew automatically, and what notice prevents renewal?"
+    },
+    "question": "Does the Northstar agreement renew automatically, and what notice prevents renewal?",
+    "retrieved": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c002",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM AND RENEWAL\n\nThe initial term is 12 months from the Effective Date. The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term."
+        },
+        "rank": 1,
+        "score": 6.618190508850818
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0003-e63589faa371",
+            "p0001-b0004-9670c7df6ba9"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c002",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM\n\nThe fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+        },
+        "rank": 2,
+        "score": 5.452110376563718
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-fe2305e1bb94",
+            "p0001-b0001-dce158e09f2c",
+            "p0001-b0002-9ac9b8478d22",
+            "p0001-b0003-dd1470d013af"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c001",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MASTER SERVICES AGREEMENT\n\nAgreement NS-2026-0915\n\nThis Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")\n\nbetween Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        },
+        "rank": 3,
+        "score": 3.349392576959171
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c004",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "3. TERMINATION\n\nEither party may terminate this Agreement for convenience on 60 days' written notice."
+        },
+        "rank": 4,
+        "score": 2.926936750590957
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0003-b0018-de210002f6a4",
+            "p0003-b0019-9787576a1fc4",
+            "p0003-b0020-58d2dbd078a0",
+            "p0003-b0021-4596e231e0ea"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p3:c014",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            3
+          ],
+          "text": "8. NOTICES\n\nContract notices must be in writing\n\nand delivered by recorded mail or the\n\nagreed contract-management portal."
+        },
+        "rank": 5,
+        "score": 2.5044051013476474
+      }
+    ]
+  },
+  {
+    "expected_abstention": false,
+    "gold_answer": "Northstar requires 30 days' written notice; Bluebird requires 60 days' written notice.",
+    "id": "q2",
+    "prediction": {
+      "abstained": false,
+      "answer": "Either party may terminate this Agreement for convenience on 60 days' written notice.\nEither party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice.",
+      "citations": [
+        {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "page": 1,
+          "quote": "Either party may terminate this Agreement for convenience on 60 days' written notice.",
+          "source_id": "doc_c9df6b40d260d244:p1:c004"
+        },
+        {
+          "block_ids": [
+            "p0003-b0002-4aa583c63252",
+            "p0003-b0003-eb619eea3157",
+            "p0003-b0004-9bffa8832898",
+            "p0003-b0005-c8eb248505c5",
+            "p0003-b0006-3fe242edab9d",
+            "p0003-b0007-a2f1f017f71f"
+          ],
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "page": 3,
+          "quote": "Either party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice.",
+          "source_id": "doc_f070d063415e53c8:p3:c011"
+        }
+      ],
+      "question": "Compare the convenience termination notice periods in the Northstar and Bluebird agreements."
+    },
+    "question": "Compare the convenience termination notice periods in the Northstar and Bluebird agreements.",
+    "retrieved": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c004",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "3. TERMINATION\n\nEither party may terminate this Agreement for convenience on 60 days' written notice."
+        },
+        "rank": 1,
+        "score": 8.946289360529304
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0003-b0002-4aa583c63252",
+            "p0003-b0003-eb619eea3157",
+            "p0003-b0004-9bffa8832898",
+            "p0003-b0005-c8eb248505c5",
+            "p0003-b0006-3fe242edab9d",
+            "p0003-b0007-a2f1f017f71f"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p3:c011",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            3
+          ],
+          "text": "5. TERMINATION\n\nEither party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice. A material breach may be\n\nterminated if it is not cured within 15\n\ndays after notice."
+        },
+        "rank": 2,
+        "score": 7.091621267271479
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c002",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM AND RENEWAL\n\nThe initial term is 12 months from the Effective Date. The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term."
+        },
+        "rank": 3,
+        "score": 4.206320402736113
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-1aeb215d70c2",
+            "p0001-b0001-1e56f848226b",
+            "p0001-b0002-856c8f061234"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c001",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "SUPPLIER AGREEMENT\n\nAgreement BB-2026-1001\n\nThis Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+        },
+        "rank": 4,
+        "score": 4.181205033500936
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-fe2305e1bb94",
+            "p0001-b0001-dce158e09f2c",
+            "p0001-b0002-9ac9b8478d22",
+            "p0001-b0003-dd1470d013af"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c001",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MASTER SERVICES AGREEMENT\n\nAgreement NS-2026-0915\n\nThis Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")\n\nbetween Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        },
+        "rank": 5,
+        "score": 3.349392576959171
+      }
+    ]
+  },
+  {
+    "expected_abstention": true,
+    "gold_answer": null,
+    "id": "q3",
+    "prediction": {
+      "abstained": true,
+      "answer": "Insufficient evidence in the indexed documents to answer this question.",
+      "citations": [],
+      "question": "What cyber-insurance limit does Harbor Labs require?"
+    },
+    "question": "What cyber-insurance limit does Harbor Labs require?",
+    "retrieved": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-8651b8f229c7",
+            "p0001-b0001-9fa7c63f6983",
+            "p0001-b0002-d41d95e06b8e",
+            "p0001-b0003-35b4a39d5f70"
+          ],
+          "chunk_id": "doc_f430d1fb0a37316a:p1:c001",
+          "document_id": "doc_f430d1fb0a37316a",
+          "file_name": "harbor_nda_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MUTUAL NON-DISCLOSURE AGREEMENT\n\nAgreement HL-2026-0820\n\nThis Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor\n\nLabs Ltd and Priya Shah (together, the \"Parties\")."
+        },
+        "rank": 1,
+        "score": 4.240183926973803
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0013-1e2d30f47a32",
+            "p0001-b0014-413f8e6bd97c",
+            "p0001-b0015-5dfc5039aa79",
+            "p0001-b0016-a244089f86ec",
+            "p0001-b0017-704d5639871d",
+            "p0001-b0018-fef76c33ab4a",
+            "p0001-b0019-d1316a459ecd"
+          ],
+          "chunk_id": "doc_f430d1fb0a37316a:p1:c005",
+          "document_id": "doc_f430d1fb0a37316a",
+          "file_name": "harbor_nda_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "4. GOVERNING LAW\n\nThis Agreement is governed by the laws of the State of California, without regard to\n\nconflict-of-law rules.\n\nFor Harbor Labs Ltd: Elena Torres, Director\n\nFor Priya Shah: Priya Shah\n\nSYNTHETIC DEMO— NOT A REAL CONTRACT\n\nPage 1"
+        },
+        "rank": 2,
+        "score": 3.7082400275764753
+      }
+    ]
+  }
+]

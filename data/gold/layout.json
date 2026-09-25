@@ -1,0 +1,40 @@
+{
+  "northstar_msa_scan": {
+    "table": {
+      "page": 2,
+      "rows": [
+        [
+          "SERVICE",
+          "FREQUENCY",
+          "FEE"
+        ],
+        [
+          "Analytics platform licence",
+          "Annual",
+          "GBP 48,000"
+        ],
+        [
+          "Implementation workshop",
+          "One-time",
+          "GBP 6,000"
+        ],
+        [
+          "Support",
+          "Included",
+          "GBP 0"
+        ]
+      ]
+    },
+    "stamp_text": [
+      "EXECUTED",
+      "15 SEP 2026"
+    ],
+    "two_column_heading_order": [
+      "5. TERMINATION",
+      "6. CONFIDENTIALITY",
+      "7. SERVICE LEVELS",
+      "8. NOTICES",
+      "9. SIGNATURES"
+    ]
+  }
+}

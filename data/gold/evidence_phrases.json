@@ -1,0 +1,92 @@
+{
+  "northstar_msa_scan": {
+    "parties": [
+      "Northstar Analytics Ltd",
+      "Acme Data Systems Ltd"
+    ],
+    "effective_date": [
+      "15 September 2026"
+    ],
+    "initial_term": [
+      "initial term is 12 months"
+    ],
+    "renewal_terms": [
+      "automatically",
+      "renew for successive",
+      "30 days before"
+    ],
+    "termination_notice": [
+      "30 days' written"
+    ],
+    "governing_law": [
+      "laws of England and Wales"
+    ],
+    "fees": [
+      "GBP 48,000",
+      "GBP 6,000",
+      "GBP 0"
+    ],
+    "payment_terms": [
+      "Invoices are due within 30 days"
+    ],
+    "signatures_present": [
+      "Signed for Northstar",
+      "Signed for Acme"
+    ],
+    "stamps_present": [
+      "EXECUTED"
+    ]
+  },
+  "bluebird_supplier_native": {
+    "parties": [
+      "Bluebird Retail PLC",
+      "Cedar Logistics Ltd"
+    ],
+    "effective_date": [
+      "1 October 2026"
+    ],
+    "initial_term": [
+      "fixed term is 24 months"
+    ],
+    "renewal_terms": [
+      "does not renew automatically"
+    ],
+    "termination_notice": [
+      "60 days' written notice"
+    ],
+    "governing_law": [
+      "laws of Scotland"
+    ],
+    "fees": [
+      "GBP 72,000"
+    ],
+    "payment_terms": [
+      "invoices within 45",
+      "days of receipt"
+    ],
+    "signatures_present": [],
+    "stamps_present": []
+  },
+  "harbor_nda_scan": {
+    "parties": [
+      "Harbor",
+      "Labs Ltd and Priya Shah"
+    ],
+    "effective_date": [
+      "20 August 2026"
+    ],
+    "initial_term": [],
+    "renewal_terms": [],
+    "termination_notice": [],
+    "governing_law": [
+      "laws of the State of California"
+    ],
+    "fees": [],
+    "payment_terms": [],
+    "signatures_present": [
+      "For Harbor Labs Ltd",
+      "For Priya Shah"
+    ],
+    "stamps_present": []
+  }
+}

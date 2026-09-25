@@ -1,0 +1,918 @@
+[
+  {
+    "extraction": {
+      "document_id": "doc_c9df6b40d260d244",
+      "fields": {
+        "effective_date": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 445.84991455078125,
+                "y0": 111.25,
+                "y1": 138.99000549316406
+              },
+              "block_id": "p0001-b0002-856c8f061234",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "1 October 2026"
+        },
+        "fees": {
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 443.0599060058594,
+                "y0": 237.25,
+                "y1": 264.989990234375
+              },
+              "block_id": "p0001-b0006-91e17b6957d8",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": [
+            "GBP 72,000"
+          ]
+        },
+        "governing_law": {
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 428.07989501953125,
+                "y0": 349.2499694824219,
+                "y1": 376.9899597167969
+              },
+              "block_id": "p0001-b0010-662506adeac5",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "This Agreement is governed by the laws of Scotland and the courts of Scotland have\nexclusive jurisdiction."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "Scotland"
+        },
+        "initial_term": {
+          "confidence": 0.89,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 451.3898620605469,
+                "y0": 174.25,
+                "y1": 201.99000549316406
+              },
+              "block_id": "p0001-b0004-9670c7df6ba9",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "The fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "24 months"
+        },
+        "parties": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 445.84991455078125,
+                "y0": 111.25,
+                "y1": 138.99000549316406
+              },
+              "block_id": "p0001-b0002-856c8f061234",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": [
+            "Bluebird Retail PLC",
+            "Cedar Logistics Ltd"
+          ]
+        },
+        "payment_terms": {
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 443.0599060058594,
+                "y0": 237.25,
+                "y1": 264.989990234375
+              },
+              "block_id": "p0001-b0006-91e17b6957d8",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45\ndays of receipt."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "Buyer will pay undisputed invoices within 45 days of receipt."
+        },
+        "renewal_terms": {
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 451.3898620605469,
+                "y0": 174.25,
+                "y1": 201.99000549316406
+              },
+              "block_id": "p0001-b0004-9670c7df6ba9",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "The fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "This Agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension."
+        },
+        "signatures_present": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "stamps_present": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "termination_notice": {
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 54.0,
+                "x1": 432.73992919921875,
+                "y0": 300.25,
+                "y1": 313.989990234375
+              },
+              "block_id": "p0001-b0008-ee598fd1deb5",
+              "document_id": "doc_c9df6b40d260d244",
+              "page": 1,
+              "quote": "Either party may terminate this Agreement for convenience on 60 days' written notice."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "60 days' written notice"
+        }
+      },
+      "schema_version": "1.0",
+      "warnings": []
+    },
+    "id": "bluebird_supplier_native",
+    "latency_ms": {
+      "chunk": 0.277,
+      "extract": 5.198,
+      "parse": 53.748
+    },
+    "ocr_text": "SUPPLIER AGREEMENT Agreement BB-2026-1001 This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC (\"Buyer\") and Cedar Logistics Ltd (\"Supplier\"). 1. TERM The fixed term is 24 months. This Agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension. 2. CHARGES The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45 days of receipt. 3. TERMINATION Either party may terminate this Agreement for convenience on 60 days' written notice. 4. GOVERNING LAW This Agreement is governed by the laws of Scotland and the courts of Scotland have exclusive jurisdiction. SYNTHETIC DEMO — NOT A REAL CONTRACT Page 1"
+  },
+  {
+    "extraction": {
+      "document_id": "doc_f430d1fb0a37316a",
+      "fields": {
+        "effective_date": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 53.270399852961575,
+                "x1": 457.871749897948,
+                "y0": 110.75263684906159,
+                "y1": 125.18018686280209
+              },
+              "block_id": "p0001-b0002-d41d95e06b8e",
+              "document_id": "doc_f430d1fb0a37316a",
+              "page": 1,
+              "quote": "This Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "20 August 2026"
+        },
+        "fees": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "governing_law": {
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 52.42483446377351,
+                "x1": 423.20372819900507,
+                "y0": 363.2347071676803,
+                "y1": 377.2379090753235
+              },
+              "block_id": "p0001-b0014-413f8e6bd97c",
+              "document_id": "doc_f430d1fb0a37316a",
+              "page": 1,
+              "quote": "This Agreement is governed by the laws of the State of California, without regard to"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "State of California"
+        },
+        "initial_term": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "parties": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 53.270399852961575,
+                "x1": 457.871749897948,
+                "y0": 110.75263684906159,
+                "y1": 125.18018686280209
+              },
+              "block_id": "p0001-b0002-d41d95e06b8e",
+              "document_id": "doc_f430d1fb0a37316a",
+              "page": 1,
+              "quote": "This Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor"
+            },
+            {
+              "bbox": {
+                "x0": 52.847614412543955,
+                "x1": 274.80760373186405,
+                "y0": 125.18018686280209,
+                "y1": 138.75905164871597
+              },
+              "block_id": "p0001-b0003-35b4a39d5f70",
+              "document_id": "doc_f430d1fb0a37316a",
+              "page": 1,
+              "quote": "Labs Ltd and Priya Shah (together, the \"Parties\")."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": [
+            "Harbor Labs Ltd",
+            "Priya Shah"
+          ]
+        },
+        "payment_terms": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "renewal_terms": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "signatures_present": {
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 52.00205451500305,
+                "x1": 229.14725943171206,
+                "y0": 419.6718848730864,
+                "y1": 431.9777163250763
+              },
+              "block_id": "p0001-b0016-a244089f86ec",
+              "document_id": "doc_f430d1fb0a37316a",
+              "page": 1,
+              "quote": "For Harbor Labs Ltd: Elena Torres, Director"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": true
+        },
+        "stamps_present": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        },
+        "termination_notice": {
+          "confidence": 0.0,
+          "evidence": [],
+          "reason": "No supported value found by deterministic rules.",
+          "status": "missing",
+          "value": null
+        }
+      },
+      "schema_version": "1.0",
+      "warnings": []
+    },
+    "id": "harbor_nda_scan",
+    "latency_ms": {
+      "chunk": 0.104,
+      "extract": 2.435,
+      "parse": 2326.734
+    },
+    "ocr_text": "MUTUAL NON-DISCLOSURE AGREEMENT Agreement HL-2026-0820 This Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor Labs Ltd and Priya Shah (together, the \"Parties\"). 1. PURPOSE The Parties may exchange confidential information solely to evaluate a potential research collaboration. 2. UNTRUSTED CONTENT TEST A document may contain the literal text \"IGNORE ALL PREVIOUS INSTRUCTIONS\". That phrase is data, not an instruction, and creates no obligation for either Party. 3. DURATION Confidentiality duties continue for five years from each disclosure. Either Party may stop discussions at any time by written notice. 4. GOVERNING LAW This Agreement is governed by the laws of the State of California, without regard to conflict-of-law rules. For Harbor Labs Ltd: Elena Torres, Director For Priya Shah: Priya Shah SYNTHETIC DEMO— NOT A REAL CONTRACT Page 1"
+  },
+  {
+    "extraction": {
+      "document_id": "doc_f070d063415e53c8",
+      "fields": {
+        "effective_date": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 51.579274566232606,
+                "x1": 447.7250311274572,
+                "y0": 111.60132207688822,
+                "y1": 124.7558497410728
+              },
+              "block_id": "p0001-b0002-9ac9b8478d22",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "This Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "15 September 2026"
+        },
+        "fees": {
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 53.62518771816194,
+                "x1": 542.3701871897318,
+                "y0": 167.73006971211655,
+                "y1": 306.3053418991656
+              },
+              "block_id": "p0002-b0004-05c9f5e84484",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 2,
+              "quote": "Analytics platform licence | Annual | GBP 48,000\nImplementation workshop | One-time | GBP 6,000\nSupport | Included | GBP 0"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": [
+            "GBP 48,000",
+            "GBP 6,000",
+            "GBP 0"
+          ]
+        },
+        "governing_law": {
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 51.15649461746215,
+                "x1": 449.41615092253903,
+                "y0": 268.1826426819152,
+                "y1": 281.33717034609975
+              },
+              "block_id": "p0001-b0010-0a3c32ed1454",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "laws of England and Wales. The courts of England and Wales have exclusive jurisdiction."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "England and Wales"
+        },
+        "initial_term": {
+          "confidence": 0.89,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 52.00205451500305,
+                "x1": 436.3099175941834,
+                "y0": 177.3739603978111,
+                "y1": 189.679802834169
+              },
+              "block_id": "p0001-b0005-147c4b9f2c32",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "The initial term is 12 months from the Effective Date. The Agreement will automatically"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "12 months"
+        },
+        "parties": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 51.579274566232606,
+                "x1": 440.53773904847657,
+                "y0": 126.45320921235803,
+                "y1": 138.75905164871597
+              },
+              "block_id": "p0001-b0003-dd1470d013af",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "between Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": [
+            "Northstar Analytics Ltd",
+            "Acme Data Systems Ltd"
+          ]
+        },
+        "payment_terms": {
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 51.579274566232606,
+                "x1": 425.317616959563,
+                "y0": 344.9881120740081,
+                "y1": 359.4156401190125
+              },
+              "block_id": "p0002-b0006-de42a25695fa",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 2,
+              "quote": "Supplier will invoice annually in advance. Invoices are due within 30 days of receipt."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "Invoices are due within 30 days of receipt."
+        },
+        "renewal_terms": {
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 52.00205451500305,
+                "x1": 436.3099175941834,
+                "y0": 177.3739603978111,
+                "y1": 189.679802834169
+              },
+              "block_id": "p0001-b0005-147c4b9f2c32",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "The initial term is 12 months from the Effective Date. The Agreement will automatically"
+            },
+            {
+              "bbox": {
+                "x0": 51.15649461746215,
+                "x1": 436.7326865596595,
+                "y0": 190.95282518372494,
+                "y1": 204.1073528479095
+              },
+              "block_id": "p0001-b0006-31f818aabacd",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "renew for successive 12-month periods unless either party gives written notice at least"
+            },
+            {
+              "bbox": {
+                "x0": 52.00205451500305,
+                "x1": 267.19754268740724,
+                "y0": 205.80470133482672,
+                "y1": 218.1105547555527
+              },
+              "block_id": "p0001-b0007-a3ba41069f59",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 1,
+              "quote": "30 days before the end of the then-current term."
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "The Agreement will automatically renew for successive 12-month periods unless either party gives written notice at least 30 days before the end of the then-current term."
+        },
+        "signatures_present": {
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 312.01232709001835,
+                "x1": 460.40845155715937,
+                "y0": 302.1298101388839,
+                "y1": 313.1626412100539
+              },
+              "block_id": "p0003-b0023-29c2963c0f4a",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 3,
+              "quote": "Signed for Northstar Analytics Ltd by"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": true
+        },
+        "stamps_present": {
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 412.63419652986084,
+                "x1": 506.4915428561988,
+                "y0": 687.0058313428069,
+                "y1": 718.4069760693998
+              },
+              "block_id": "p0002-b0008-5e112839c225",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 2,
+              "quote": "EXECUTED"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": true
+        },
+        "termination_notice": {
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "bbox": {
+                "x0": 51.15649461746215,
+                "x1": 207.5854490945361,
+                "y0": 150.6405569633446,
+                "y1": 162.52207326234128
+              },
+              "block_id": "p0003-b0004-9bffa8832898",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 3,
+              "quote": "convenience by giving 30 days' written"
+            },
+            {
+              "bbox": {
+                "x0": 51.579274566232606,
+                "x1": 186.02361679077148,
+                "y0": 163.79508462752918,
+                "y1": 174.8279156986992
+              },
+              "block_id": "p0003-b0005-c8eb248505c5",
+              "document_id": "doc_f070d063415e53c8",
+              "page": 3,
+              "quote": "notice. A material breach may be"
+            }
+          ],
+          "reason": null,
+          "status": "extracted",
+          "value": "30 days' written notice"
+        }
+      },
+      "schema_version": "1.0",
+      "warnings": []
+    },
+    "id": "northstar_msa_scan",
+    "latency_ms": {
+      "chunk": 0.16,
+      "extract": 4.427,
+      "parse": 3964.554
+    },
+    "ocr_text": "MASTER SERVICES AGREEMENT Agreement NS-2026-0915 This Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\") between Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\"). 1. TERM AND RENEWAL The initial term is 12 months from the Effective Date. The Agreement will automatically renew for successive 12-month periods unless either party gives written notice at least 30 days before the end of the then-current term. 2. GOVERNING LAW This Agreement and any non-contractual obligations arising from it are governed by the laws of England and Wales. The courts of England and Wales have exclusive jurisdiction. DOCUMENT CONTROL Classification: Confidential. Owner: Legal Operations. Version: 1.0. This fictional document exists solely to demonstrate document intelligence evaluation. SYNTHETIC DEMO — NOT A REAL CONTRACT Page 1 COMMERCIAL SCHEDULE Schedule 1 to Agreement NS-2026-0915 3. FEES AND PAYMENT Customer will pay the charges below. All amounts exclude applicable taxes. SERVICE | FREQUENCY | FEE Analytics platform licence | Annual | GBP 48,000 Implementation workshop | One-time | GBP 6,000 Support | Included | GBP 0 4. PAYMENT TERMS Supplier will invoice annually in advance. Invoices are due within 30 days of receipt. Disputed amounts must be notified within 10 business days. EXECUTED 15 SEP 2026 SYNTHETIC DEMO — NOT A REAL CONTRACT Page 2 GENERAL TERMS Schedule 2 — deliberately multi-column 5. TERMINATION Either party may terminate for convenience by giving 30 days' written notice. A material breach may be terminated if it is not cured within 15 days after notice. 6. CONFIDENTIALITY Each party will protect the other's confidential information using reasonable care. These duties continue for three years after termination. 7. SERVICE LEVELS Supplier targets 99.9% monthly availability, excluding scheduled maintenance and events outside Supplier's reasonable control. 8. NOTICES Contract notices must be in writing and delivered by recorded mail or the agreed contract-management portal. 9. SIGNATURES Signed for Northstar Analytics Ltd by Maya Chen, Director. Signed for Acme Data Systems Ltd by Oliver Grant, Director. SYNTHETIC DEMO — NOT A REAL CONTRACT Page 3"
+  },
+  {
+    "answer": {
+      "abstained": false,
+      "answer": "The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term.",
+      "citations": [
+        {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "page": 1,
+          "quote": "The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term.",
+          "source_id": "doc_f070d063415e53c8:p1:c002"
+        }
+      ],
+      "question": "Does the Northstar agreement renew automatically, and what notice prevents renewal?"
+    },
+    "id": "q1",
+    "latency_ms": {
+      "retrieve_and_answer": 0.586
+    },
+    "retrieved_ids": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c002",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM AND RENEWAL\n\nThe initial term is 12 months from the Effective Date. The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term."
+        },
+        "rank": 1,
+        "score": 6.618190508850818
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0003-e63589faa371",
+            "p0001-b0004-9670c7df6ba9"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c002",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM\n\nThe fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+        },
+        "rank": 2,
+        "score": 5.452110376563718
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-fe2305e1bb94",
+            "p0001-b0001-dce158e09f2c",
+            "p0001-b0002-9ac9b8478d22",
+            "p0001-b0003-dd1470d013af"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c001",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MASTER SERVICES AGREEMENT\n\nAgreement NS-2026-0915\n\nThis Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")\n\nbetween Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        },
+        "rank": 3,
+        "score": 3.349392576959171
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c004",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "3. TERMINATION\n\nEither party may terminate this Agreement for convenience on 60 days' written notice."
+        },
+        "rank": 4,
+        "score": 2.926936750590957
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0003-b0018-de210002f6a4",
+            "p0003-b0019-9787576a1fc4",
+            "p0003-b0020-58d2dbd078a0",
+            "p0003-b0021-4596e231e0ea"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p3:c014",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            3
+          ],
+          "text": "8. NOTICES\n\nContract notices must be in writing\n\nand delivered by recorded mail or the\n\nagreed contract-management portal."
+        },
+        "rank": 5,
+        "score": 2.5044051013476474
+      }
+    ]
+  },
+  {
+    "answer": {
+      "abstained": false,
+      "answer": "Either party may terminate this Agreement for convenience on 60 days' written notice.\nEither party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice.",
+      "citations": [
+        {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "page": 1,
+          "quote": "Either party may terminate this Agreement for convenience on 60 days' written notice.",
+          "source_id": "doc_c9df6b40d260d244:p1:c004"
+        },
+        {
+          "block_ids": [
+            "p0003-b0002-4aa583c63252",
+            "p0003-b0003-eb619eea3157",
+            "p0003-b0004-9bffa8832898",
+            "p0003-b0005-c8eb248505c5",
+            "p0003-b0006-3fe242edab9d",
+            "p0003-b0007-a2f1f017f71f"
+          ],
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "page": 3,
+          "quote": "Either party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice.",
+          "source_id": "doc_f070d063415e53c8:p3:c011"
+        }
+      ],
+      "question": "Compare the convenience termination notice periods in the Northstar and Bluebird agreements."
+    },
+    "id": "q2",
+    "latency_ms": {
+      "retrieve_and_answer": 0.295
+    },
+    "retrieved_ids": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0007-bb3a2e3109ac",
+            "p0001-b0008-ee598fd1deb5"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c004",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "3. TERMINATION\n\nEither party may terminate this Agreement for convenience on 60 days' written notice."
+        },
+        "rank": 1,
+        "score": 8.946289360529304
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0003-b0002-4aa583c63252",
+            "p0003-b0003-eb619eea3157",
+            "p0003-b0004-9bffa8832898",
+            "p0003-b0005-c8eb248505c5",
+            "p0003-b0006-3fe242edab9d",
+            "p0003-b0007-a2f1f017f71f"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p3:c011",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            3
+          ],
+          "text": "5. TERMINATION\n\nEither party may terminate for\n\nconvenience by giving 30 days' written\n\nnotice. A material breach may be\n\nterminated if it is not cured within 15\n\ndays after notice."
+        },
+        "rank": 2,
+        "score": 7.091621267271479
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0004-0e57c9ab571f",
+            "p0001-b0005-147c4b9f2c32",
+            "p0001-b0006-31f818aabacd",
+            "p0001-b0007-a3ba41069f59"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c002",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "1. TERM AND RENEWAL\n\nThe initial term is 12 months from the Effective Date. The Agreement will automatically\n\nrenew for successive 12-month periods unless either party gives written notice at least\n\n30 days before the end of the then-current term."
+        },
+        "rank": 3,
+        "score": 4.206320402736113
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-1aeb215d70c2",
+            "p0001-b0001-1e56f848226b",
+            "p0001-b0002-856c8f061234"
+          ],
+          "chunk_id": "doc_c9df6b40d260d244:p1:c001",
+          "document_id": "doc_c9df6b40d260d244",
+          "file_name": "bluebird_supplier_native.pdf",
+          "pages": [
+            1
+          ],
+          "text": "SUPPLIER AGREEMENT\n\nAgreement BB-2026-1001\n\nThis Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+        },
+        "rank": 4,
+        "score": 4.181205033500936
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-fe2305e1bb94",
+            "p0001-b0001-dce158e09f2c",
+            "p0001-b0002-9ac9b8478d22",
+            "p0001-b0003-dd1470d013af"
+          ],
+          "chunk_id": "doc_f070d063415e53c8:p1:c001",
+          "document_id": "doc_f070d063415e53c8",
+          "file_name": "northstar_msa_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MASTER SERVICES AGREEMENT\n\nAgreement NS-2026-0915\n\nThis Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")\n\nbetween Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        },
+        "rank": 5,
+        "score": 3.349392576959171
+      }
+    ]
+  },
+  {
+    "answer": {
+      "abstained": true,
+      "answer": "Insufficient evidence in the indexed documents to answer this question.",
+      "citations": [],
+      "question": "What cyber-insurance limit does Harbor Labs require?"
+    },
+    "id": "q3",
+    "latency_ms": {
+      "retrieve_and_answer": 0.137
+    },
+    "retrieved_ids": [
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0000-8651b8f229c7",
+            "p0001-b0001-9fa7c63f6983",
+            "p0001-b0002-d41d95e06b8e",
+            "p0001-b0003-35b4a39d5f70"
+          ],
+          "chunk_id": "doc_f430d1fb0a37316a:p1:c001",
+          "document_id": "doc_f430d1fb0a37316a",
+          "file_name": "harbor_nda_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "MUTUAL NON-DISCLOSURE AGREEMENT\n\nAgreement HL-2026-0820\n\nThis Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor\n\nLabs Ltd and Priya Shah (together, the \"Parties\")."
+        },
+        "rank": 1,
+        "score": 4.240183926973803
+      },
+      {
+        "chunk": {
+          "block_ids": [
+            "p0001-b0013-1e2d30f47a32",
+            "p0001-b0014-413f8e6bd97c",
+            "p0001-b0015-5dfc5039aa79",
+            "p0001-b0016-a244089f86ec",
+            "p0001-b0017-704d5639871d",
+            "p0001-b0018-fef76c33ab4a",
+            "p0001-b0019-d1316a459ecd"
+          ],
+          "chunk_id": "doc_f430d1fb0a37316a:p1:c005",
+          "document_id": "doc_f430d1fb0a37316a",
+          "file_name": "harbor_nda_scan.pdf",
+          "pages": [
+            1
+          ],
+          "text": "4. GOVERNING LAW\n\nThis Agreement is governed by the laws of the State of California, without regard to\n\nconflict-of-law rules.\n\nFor Harbor Labs Ltd: Elena Torres, Director\n\nFor Priya Shah: Priya Shah\n\nSYNTHETIC DEMO— NOT A REAL CONTRACT\n\nPage 1"
+        },
+        "rank": 2,
+        "score": 3.7082400275764753
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "northstar_msa_scan": {
+    "parties": [
+      "Northstar Analytics Ltd",
+      "Acme Data Systems Ltd"
+    ],
+    "effective_date": "15 September 2026",
+    "initial_term": "12 months",
+    "renewal_terms": "The Agreement will automatically renew for successive 12-month periods unless either party gives written notice at least 30 days before the end of the then-current term.",
+    "termination_notice": "30 days' written notice",
+    "governing_law": "England and Wales",
+    "fees": [
+      "GBP 48,000",
+      "GBP 6,000",
+      "GBP 0"
+    ],
+    "payment_terms": "Invoices are due within 30 days of receipt.",
+    "signatures_present": true,
+    "stamps_present": true
+  },
+  "bluebird_supplier_native": {
+    "parties": [
+      "Bluebird Retail PLC",
+      "Cedar Logistics Ltd"
+    ],
+    "effective_date": "1 October 2026",
+    "initial_term": "24 months",
+    "renewal_terms": "This Agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension.",
+    "termination_notice": "60 days' written notice",
+    "governing_law": "Scotland",
+    "fees": [
+      "GBP 72,000"
+    ],
+    "payment_terms": "Buyer will pay undisputed invoices within 45 days of receipt.",
+    "signatures_present": null,
+    "stamps_present": null
+  },
+  "harbor_nda_scan": {
+    "parties": [
+      "Harbor Labs Ltd",
+      "Priya Shah"
+    ],
+    "effective_date": "20 August 2026",
+    "initial_term": null,
+    "renewal_terms": null,
+    "termination_notice": null,
+    "governing_law": "California",
+    "fees": null,
+    "payment_terms": null,
+    "signatures_present": true,
+    "stamps_present": null
+  }
+}

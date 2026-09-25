@@ -1,0 +1,250 @@
+{
+  "document_id": "doc_f070d063415e53c8",
+  "fields": {
+    "effective_date": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 447.7250311274572,
+            "y0": 111.60132207688822,
+            "y1": 124.7558497410728
+          },
+          "block_id": "p0001-b0002-9ac9b8478d22",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "This Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "15 September 2026"
+    },
+    "fees": {
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 53.62518771816194,
+            "x1": 542.3701871897318,
+            "y0": 167.73006971211655,
+            "y1": 306.3053418991656
+          },
+          "block_id": "p0002-b0004-05c9f5e84484",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 2,
+          "quote": "Analytics platform licence | Annual | GBP 48,000\nImplementation workshop | One-time | GBP 6,000\nSupport | Included | GBP 0"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": [
+        "GBP 48,000",
+        "GBP 6,000",
+        "GBP 0"
+      ]
+    },
+    "governing_law": {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 449.41615092253903,
+            "y0": 268.1826426819152,
+            "y1": 281.33717034609975
+          },
+          "block_id": "p0001-b0010-0a3c32ed1454",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "laws of England and Wales. The courts of England and Wales have exclusive jurisdiction."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "England and Wales"
+    },
+    "initial_term": {
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 436.3099175941834,
+            "y0": 177.3739603978111,
+            "y1": 189.679802834169
+          },
+          "block_id": "p0001-b0005-147c4b9f2c32",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "The initial term is 12 months from the Effective Date. The Agreement will automatically"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "12 months"
+    },
+    "parties": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 440.53773904847657,
+            "y0": 126.45320921235803,
+            "y1": 138.75905164871597
+          },
+          "block_id": "p0001-b0003-dd1470d013af",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "between Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": [
+        "Northstar Analytics Ltd",
+        "Acme Data Systems Ltd"
+      ]
+    },
+    "payment_terms": {
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 425.317616959563,
+            "y0": 344.9881120740081,
+            "y1": 359.4156401190125
+          },
+          "block_id": "p0002-b0006-de42a25695fa",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 2,
+          "quote": "Supplier will invoice annually in advance. Invoices are due within 30 days of receipt."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "Invoices are due within 30 days of receipt."
+    },
+    "renewal_terms": {
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 436.3099175941834,
+            "y0": 177.3739603978111,
+            "y1": 189.679802834169
+          },
+          "block_id": "p0001-b0005-147c4b9f2c32",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "The initial term is 12 months from the Effective Date. The Agreement will automatically"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 436.7326865596595,
+            "y0": 190.95282518372494,
+            "y1": 204.1073528479095
+          },
+          "block_id": "p0001-b0006-31f818aabacd",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "renew for successive 12-month periods unless either party gives written notice at least"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 267.19754268740724,
+            "y0": 205.80470133482672,
+            "y1": 218.1105547555527
+          },
+          "block_id": "p0001-b0007-a3ba41069f59",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 1,
+          "quote": "30 days before the end of the then-current term."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "The Agreement will automatically renew for successive 12-month periods unless either party gives written notice at least 30 days before the end of the then-current term."
+    },
+    "signatures_present": {
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 312.01232709001835,
+            "x1": 460.40845155715937,
+            "y0": 302.1298101388839,
+            "y1": 313.1626412100539
+          },
+          "block_id": "p0003-b0023-29c2963c0f4a",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 3,
+          "quote": "Signed for Northstar Analytics Ltd by"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": true
+    },
+    "stamps_present": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 412.63419652986084,
+            "x1": 506.4915428561988,
+            "y0": 687.0058313428069,
+            "y1": 718.4069760693998
+          },
+          "block_id": "p0002-b0008-5e112839c225",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 2,
+          "quote": "EXECUTED"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": true
+    },
+    "termination_notice": {
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 207.5854490945361,
+            "y0": 150.6405569633446,
+            "y1": 162.52207326234128
+          },
+          "block_id": "p0003-b0004-9bffa8832898",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 3,
+          "quote": "convenience by giving 30 days' written"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 186.02361679077148,
+            "y0": 163.79508462752918,
+            "y1": 174.8279156986992
+          },
+          "block_id": "p0003-b0005-c8eb248505c5",
+          "document_id": "doc_f070d063415e53c8",
+          "page": 3,
+          "quote": "notice. A material breach may be"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "30 days' written notice"
+    }
+  },
+  "schema_version": "1.0",
+  "warnings": []
+}

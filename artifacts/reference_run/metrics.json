@@ -1,0 +1,1000 @@
+{
+  "cases": [
+    {
+      "case_id": "bluebird_supplier_native",
+      "metrics": {
+        "evidence": {
+          "block_correct_count": 8,
+          "block_correctness": 1.0,
+          "page_correct_count": 8,
+          "page_correctness": 1.0,
+          "per_field": {
+            "effective_date": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "fees": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "governing_law": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "initial_term": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "parties": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "payment_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "renewal_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "signatures_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "stamps_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "termination_notice": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            }
+          },
+          "predicted_evidence_count": 8,
+          "predicted_value_count": 8,
+          "reference_evidence_count": 8,
+          "unsupported_value_count": 0,
+          "unsupported_value_rate": 0.0
+        },
+        "extraction": {
+          "exact_match": 1.0,
+          "field_count": 10,
+          "per_field": {
+            "effective_date": {
+              "exact_match": 1.0,
+              "prediction_normalized": "1 october 2026",
+              "reference_normalized": "1 october 2026",
+              "token_f1": 1.0
+            },
+            "fees": {
+              "exact_match": 1.0,
+              "prediction_normalized": "gbp 72 000",
+              "reference_normalized": "gbp 72 000",
+              "token_f1": 1.0
+            },
+            "governing_law": {
+              "exact_match": 1.0,
+              "prediction_normalized": "scotland",
+              "reference_normalized": "scotland",
+              "token_f1": 1.0
+            },
+            "initial_term": {
+              "exact_match": 1.0,
+              "prediction_normalized": "24 months",
+              "reference_normalized": "24 months",
+              "token_f1": 1.0
+            },
+            "parties": {
+              "exact_match": 1.0,
+              "prediction_normalized": "bluebird retail plc | cedar logistics ltd",
+              "reference_normalized": "bluebird retail plc | cedar logistics ltd",
+              "token_f1": 1.0
+            },
+            "payment_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "buyer will pay undisputed invoices within 45 days of receipt",
+              "reference_normalized": "buyer will pay undisputed invoices within 45 days of receipt",
+              "token_f1": 1.0
+            },
+            "renewal_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "this agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension",
+              "reference_normalized": "this agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension",
+              "token_f1": 1.0
+            },
+            "signatures_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "stamps_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "termination_notice": {
+              "exact_match": 1.0,
+              "prediction_normalized": "60 days written notice",
+              "reference_normalized": "60 days written notice",
+              "token_f1": 1.0
+            }
+          },
+          "token_f1": 1.0
+        },
+        "latency": {
+          "by_stage": {
+            "chunk": {
+              "count": 1,
+              "max_ms": 0.277,
+              "mean_ms": 0.277,
+              "median_ms": 0.277,
+              "min_ms": 0.277,
+              "p50_ms": 0.277,
+              "p95_ms": 0.277,
+              "p99_ms": 0.277,
+              "total_ms": 0.277
+            },
+            "extract": {
+              "count": 1,
+              "max_ms": 5.198,
+              "mean_ms": 5.198,
+              "median_ms": 5.198,
+              "min_ms": 5.198,
+              "p50_ms": 5.198,
+              "p95_ms": 5.198,
+              "p99_ms": 5.198,
+              "total_ms": 5.198
+            },
+            "parse": {
+              "count": 1,
+              "max_ms": 53.748,
+              "mean_ms": 53.748,
+              "median_ms": 53.748,
+              "min_ms": 53.748,
+              "p50_ms": 53.748,
+              "p95_ms": 53.748,
+              "p99_ms": 53.748,
+              "total_ms": 53.748
+            }
+          },
+          "overall": {
+            "count": 3,
+            "max_ms": 53.748,
+            "mean_ms": 19.741,
+            "median_ms": 5.198,
+            "min_ms": 0.277,
+            "p50_ms": 5.198,
+            "p95_ms": 53.748,
+            "p99_ms": 53.748,
+            "total_ms": 59.223
+          }
+        },
+        "ocr": {
+          "cer": 0.0,
+          "character_errors": 0,
+          "predicted_characters": 727,
+          "predicted_words": 117,
+          "reference_characters": 727,
+          "reference_words": 117,
+          "wer": 0.0,
+          "word_errors": 0
+        }
+      },
+      "prediction_missing": false
+    },
+    {
+      "case_id": "harbor_nda_scan",
+      "metrics": {
+        "evidence": {
+          "block_correct_count": 5,
+          "block_correctness": 1.0,
+          "page_correct_count": 5,
+          "page_correctness": 1.0,
+          "per_field": {
+            "effective_date": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "fees": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "governing_law": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "initial_term": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "parties": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 2,
+              "reference_evidence_count": 2,
+              "value_supported": true
+            },
+            "payment_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "renewal_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "signatures_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 2,
+              "value_supported": true
+            },
+            "stamps_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            },
+            "termination_notice": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 0,
+              "reference_evidence_count": 0,
+              "value_supported": null
+            }
+          },
+          "predicted_evidence_count": 5,
+          "predicted_value_count": 4,
+          "reference_evidence_count": 6,
+          "unsupported_value_count": 0,
+          "unsupported_value_rate": 0.0
+        },
+        "extraction": {
+          "exact_match": 0.9,
+          "field_count": 10,
+          "per_field": {
+            "effective_date": {
+              "exact_match": 1.0,
+              "prediction_normalized": "20 august 2026",
+              "reference_normalized": "20 august 2026",
+              "token_f1": 1.0
+            },
+            "fees": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "governing_law": {
+              "exact_match": 0.0,
+              "prediction_normalized": "state of california",
+              "reference_normalized": "california",
+              "token_f1": 0.5
+            },
+            "initial_term": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "parties": {
+              "exact_match": 1.0,
+              "prediction_normalized": "harbor labs ltd | priya shah",
+              "reference_normalized": "harbor labs ltd | priya shah",
+              "token_f1": 1.0
+            },
+            "payment_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "renewal_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "signatures_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "true",
+              "reference_normalized": "true",
+              "token_f1": 1.0
+            },
+            "stamps_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            },
+            "termination_notice": {
+              "exact_match": 1.0,
+              "prediction_normalized": "",
+              "reference_normalized": "",
+              "token_f1": 1.0
+            }
+          },
+          "token_f1": 0.95
+        },
+        "latency": {
+          "by_stage": {
+            "chunk": {
+              "count": 1,
+              "max_ms": 0.104,
+              "mean_ms": 0.104,
+              "median_ms": 0.104,
+              "min_ms": 0.104,
+              "p50_ms": 0.104,
+              "p95_ms": 0.104,
+              "p99_ms": 0.104,
+              "total_ms": 0.104
+            },
+            "extract": {
+              "count": 1,
+              "max_ms": 2.435,
+              "mean_ms": 2.435,
+              "median_ms": 2.435,
+              "min_ms": 2.435,
+              "p50_ms": 2.435,
+              "p95_ms": 2.435,
+              "p99_ms": 2.435,
+              "total_ms": 2.435
+            },
+            "parse": {
+              "count": 1,
+              "max_ms": 2326.734,
+              "mean_ms": 2326.734,
+              "median_ms": 2326.734,
+              "min_ms": 2326.734,
+              "p50_ms": 2326.734,
+              "p95_ms": 2326.734,
+              "p99_ms": 2326.734,
+              "total_ms": 2326.734
+            }
+          },
+          "overall": {
+            "count": 3,
+            "max_ms": 2326.734,
+            "mean_ms": 776.4243333333334,
+            "median_ms": 2.435,
+            "min_ms": 0.104,
+            "p50_ms": 2.435,
+            "p95_ms": 2326.734,
+            "p99_ms": 2326.734,
+            "total_ms": 2329.273
+          }
+        },
+        "ocr": {
+          "cer": 0.0011363636363636363,
+          "character_errors": 1,
+          "predicted_characters": 879,
+          "predicted_words": 132,
+          "reference_characters": 880,
+          "reference_words": 133,
+          "wer": 0.015037593984962405,
+          "word_errors": 2
+        }
+      },
+      "prediction_missing": false
+    },
+    {
+      "case_id": "northstar_msa_scan",
+      "metrics": {
+        "evidence": {
+          "block_correct_count": 12,
+          "block_correctness": 0.9230769230769231,
+          "page_correct_count": 13,
+          "page_correctness": 1.0,
+          "per_field": {
+            "effective_date": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "fees": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "governing_law": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "initial_term": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "parties": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "payment_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "renewal_terms": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 3,
+              "reference_evidence_count": 3,
+              "value_supported": true
+            },
+            "signatures_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 2,
+              "value_supported": true
+            },
+            "stamps_present": {
+              "block_correctness": 1.0,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 1,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            },
+            "termination_notice": {
+              "block_correctness": 0.5,
+              "page_correctness": 1.0,
+              "predicted_evidence_count": 2,
+              "reference_evidence_count": 1,
+              "value_supported": true
+            }
+          },
+          "predicted_evidence_count": 13,
+          "predicted_value_count": 10,
+          "reference_evidence_count": 13,
+          "unsupported_value_count": 0,
+          "unsupported_value_rate": 0.0
+        },
+        "extraction": {
+          "exact_match": 1.0,
+          "field_count": 10,
+          "per_field": {
+            "effective_date": {
+              "exact_match": 1.0,
+              "prediction_normalized": "15 september 2026",
+              "reference_normalized": "15 september 2026",
+              "token_f1": 1.0
+            },
+            "fees": {
+              "exact_match": 1.0,
+              "prediction_normalized": "gbp 0 | gbp 48 000 | gbp 6 000",
+              "reference_normalized": "gbp 0 | gbp 48 000 | gbp 6 000",
+              "token_f1": 1.0
+            },
+            "governing_law": {
+              "exact_match": 1.0,
+              "prediction_normalized": "england and wales",
+              "reference_normalized": "england and wales",
+              "token_f1": 1.0
+            },
+            "initial_term": {
+              "exact_match": 1.0,
+              "prediction_normalized": "12 months",
+              "reference_normalized": "12 months",
+              "token_f1": 1.0
+            },
+            "parties": {
+              "exact_match": 1.0,
+              "prediction_normalized": "acme data systems ltd | northstar analytics ltd",
+              "reference_normalized": "acme data systems ltd | northstar analytics ltd",
+              "token_f1": 1.0
+            },
+            "payment_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "invoices are due within 30 days of receipt",
+              "reference_normalized": "invoices are due within 30 days of receipt",
+              "token_f1": 1.0
+            },
+            "renewal_terms": {
+              "exact_match": 1.0,
+              "prediction_normalized": "the agreement will automatically renew for successive 12 month periods unless either party gives written notice at least 30 days before the end of the then current term",
+              "reference_normalized": "the agreement will automatically renew for successive 12 month periods unless either party gives written notice at least 30 days before the end of the then current term",
+              "token_f1": 1.0
+            },
+            "signatures_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "true",
+              "reference_normalized": "true",
+              "token_f1": 1.0
+            },
+            "stamps_present": {
+              "exact_match": 1.0,
+              "prediction_normalized": "true",
+              "reference_normalized": "true",
+              "token_f1": 1.0
+            },
+            "termination_notice": {
+              "exact_match": 1.0,
+              "prediction_normalized": "30 days written notice",
+              "reference_normalized": "30 days written notice",
+              "token_f1": 1.0
+            }
+          },
+          "token_f1": 1.0
+        },
+        "latency": {
+          "by_stage": {
+            "chunk": {
+              "count": 1,
+              "max_ms": 0.16,
+              "mean_ms": 0.16,
+              "median_ms": 0.16,
+              "min_ms": 0.16,
+              "p50_ms": 0.16,
+              "p95_ms": 0.16,
+              "p99_ms": 0.16,
+              "total_ms": 0.16
+            },
+            "extract": {
+              "count": 1,
+              "max_ms": 4.427,
+              "mean_ms": 4.427,
+              "median_ms": 4.427,
+              "min_ms": 4.427,
+              "p50_ms": 4.427,
+              "p95_ms": 4.427,
+              "p99_ms": 4.427,
+              "total_ms": 4.427
+            },
+            "parse": {
+              "count": 1,
+              "max_ms": 3964.554,
+              "mean_ms": 3964.554,
+              "median_ms": 3964.554,
+              "min_ms": 3964.554,
+              "p50_ms": 3964.554,
+              "p95_ms": 3964.554,
+              "p99_ms": 3964.554,
+              "total_ms": 3964.554
+            }
+          },
+          "overall": {
+            "count": 3,
+            "max_ms": 3964.554,
+            "mean_ms": 1323.047,
+            "median_ms": 4.427,
+            "min_ms": 0.16,
+            "p50_ms": 4.427,
+            "p95_ms": 3964.554,
+            "p99_ms": 3964.554,
+            "total_ms": 3969.141
+          }
+        },
+        "ocr": {
+          "cer": 0.007213706041478809,
+          "character_errors": 16,
+          "predicted_characters": 2234,
+          "predicted_words": 338,
+          "reference_characters": 2218,
+          "reference_words": 330,
+          "wer": 0.024242424242424242,
+          "word_errors": 8
+        }
+      },
+      "prediction_missing": false
+    },
+    {
+      "case_id": "q1",
+      "metrics": {
+        "answer": {
+          "abstention_accuracy": 1.0,
+          "citation_completeness": 1.0,
+          "citation_f1": 1.0,
+          "citation_precision": 1.0,
+          "correct_citation_count": 1,
+          "covered_reference_citation_count": 1,
+          "expected_abstention": false,
+          "predicted_abstention": false,
+          "predicted_citation_count": 1,
+          "reference_citation_count": 1
+        },
+        "latency": {
+          "by_stage": {
+            "retrieve_and_answer": {
+              "count": 1,
+              "max_ms": 0.586,
+              "mean_ms": 0.586,
+              "median_ms": 0.586,
+              "min_ms": 0.586,
+              "p50_ms": 0.586,
+              "p95_ms": 0.586,
+              "p99_ms": 0.586,
+              "total_ms": 0.586
+            }
+          },
+          "overall": {
+            "count": 1,
+            "max_ms": 0.586,
+            "mean_ms": 0.586,
+            "median_ms": 0.586,
+            "min_ms": 0.586,
+            "p50_ms": 0.586,
+            "p95_ms": 0.586,
+            "p99_ms": 0.586,
+            "total_ms": 0.586
+          }
+        },
+        "retrieval": {
+          "evaluable": true,
+          "first_relevant_rank": 1,
+          "mrr": 1.0,
+          "recall_at_k": {
+            "1": 1.0,
+            "3": 1.0,
+            "5": 1.0
+          },
+          "relevant_count": 1,
+          "retrieved_count": 5
+        }
+      },
+      "prediction_missing": false
+    },
+    {
+      "case_id": "q2",
+      "metrics": {
+        "answer": {
+          "abstention_accuracy": 1.0,
+          "citation_completeness": 1.0,
+          "citation_f1": 1.0,
+          "citation_precision": 1.0,
+          "correct_citation_count": 2,
+          "covered_reference_citation_count": 2,
+          "expected_abstention": false,
+          "predicted_abstention": false,
+          "predicted_citation_count": 2,
+          "reference_citation_count": 2
+        },
+        "latency": {
+          "by_stage": {
+            "retrieve_and_answer": {
+              "count": 1,
+              "max_ms": 0.295,
+              "mean_ms": 0.295,
+              "median_ms": 0.295,
+              "min_ms": 0.295,
+              "p50_ms": 0.295,
+              "p95_ms": 0.295,
+              "p99_ms": 0.295,
+              "total_ms": 0.295
+            }
+          },
+          "overall": {
+            "count": 1,
+            "max_ms": 0.295,
+            "mean_ms": 0.295,
+            "median_ms": 0.295,
+            "min_ms": 0.295,
+            "p50_ms": 0.295,
+            "p95_ms": 0.295,
+            "p99_ms": 0.295,
+            "total_ms": 0.295
+          }
+        },
+        "retrieval": {
+          "evaluable": true,
+          "first_relevant_rank": 1,
+          "mrr": 1.0,
+          "recall_at_k": {
+            "1": 0.5,
+            "3": 1.0,
+            "5": 1.0
+          },
+          "relevant_count": 2,
+          "retrieved_count": 5
+        }
+      },
+      "prediction_missing": false
+    },
+    {
+      "case_id": "q3",
+      "metrics": {
+        "answer": {
+          "abstention_accuracy": 1.0,
+          "citation_completeness": 1.0,
+          "citation_f1": 1.0,
+          "citation_precision": 1.0,
+          "correct_citation_count": 0,
+          "covered_reference_citation_count": 0,
+          "expected_abstention": true,
+          "predicted_abstention": true,
+          "predicted_citation_count": 0,
+          "reference_citation_count": 0
+        },
+        "latency": {
+          "by_stage": {
+            "retrieve_and_answer": {
+              "count": 1,
+              "max_ms": 0.137,
+              "mean_ms": 0.137,
+              "median_ms": 0.137,
+              "min_ms": 0.137,
+              "p50_ms": 0.137,
+              "p95_ms": 0.137,
+              "p99_ms": 0.137,
+              "total_ms": 0.137
+            }
+          },
+          "overall": {
+            "count": 1,
+            "max_ms": 0.137,
+            "mean_ms": 0.137,
+            "median_ms": 0.137,
+            "min_ms": 0.137,
+            "p50_ms": 0.137,
+            "p95_ms": 0.137,
+            "p99_ms": 0.137,
+            "total_ms": 0.137
+          }
+        },
+        "retrieval": {
+          "evaluable": false,
+          "first_relevant_rank": null,
+          "mrr": null,
+          "recall_at_k": {
+            "1": null,
+            "3": null,
+            "5": null
+          },
+          "relevant_count": 0,
+          "retrieved_count": 2
+        }
+      },
+      "prediction_missing": false
+    }
+  ],
+  "run_metadata": {
+    "api_cost_usd": 0.0,
+    "dataset": "eval-first-document-ai-synthetic-v1",
+    "fixture_count": 3,
+    "fixture_sha256": {
+      "bluebird_supplier_native.pdf": "c9df6b40d260d244a947caad02aea7ae467732fda1070c785cc89a2fb4b53152",
+      "harbor_nda_scan.pdf": "f430d1fb0a37316a40fa621ca1872505f7c3801e5125b401bb041efeb2ba5696",
+      "northstar_msa_scan.pdf": "f070d063415e53c82abebedede2f61fa7db721fa85dbb2fab17eb0f1849c47f6"
+    },
+    "network_calls": 0,
+    "notes": "Small synthetic benchmark; results are not a production accuracy claim. OCR CER/WER collapse segmentation whitespace but preserve canonical reading order.",
+    "package_versions": {
+      "onnxruntime": "1.30.0",
+      "pydantic": "2.13.5",
+      "pymupdf": "1.28.2",
+      "rapidocr": "3.9.2"
+    },
+    "parser": "pymupdf-native+rapidocr-v3",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7",
+    "query_count": 3
+  },
+  "schema_version": "1.0",
+  "summary": {
+    "answer": {
+      "abstention_accuracy": 1.0,
+      "case_count": 3,
+      "citation_completeness": 1.0,
+      "citation_f1": 1.0,
+      "citation_precision": 1.0
+    },
+    "case_count": 6,
+    "evidence": {
+      "block_correctness": 0.9615384615384616,
+      "page_correctness": 1.0,
+      "predicted_evidence_count": 26,
+      "predicted_value_count": 22,
+      "reference_evidence_count": 27,
+      "unsupported_value_rate": 0.0
+    },
+    "extraction": {
+      "exact_match": 0.9666666666666667,
+      "field_instance_count": 30,
+      "per_field": {
+        "effective_date": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "fees": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "governing_law": {
+          "count": 3,
+          "exact_match": 0.6666666666666666,
+          "token_f1": 0.8333333333333334
+        },
+        "initial_term": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "parties": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "payment_terms": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "renewal_terms": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "signatures_present": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "stamps_present": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        },
+        "termination_notice": {
+          "count": 3,
+          "exact_match": 1.0,
+          "token_f1": 1.0
+        }
+      },
+      "token_f1": 0.9833333333333333
+    },
+    "latency": {
+      "by_stage": {
+        "chunk": {
+          "count": 3,
+          "max_ms": 0.277,
+          "mean_ms": 0.18033333333333335,
+          "median_ms": 0.16,
+          "min_ms": 0.104,
+          "p50_ms": 0.16,
+          "p95_ms": 0.277,
+          "p99_ms": 0.277,
+          "total_ms": 0.541
+        },
+        "extract": {
+          "count": 3,
+          "max_ms": 5.198,
+          "mean_ms": 4.0200000000000005,
+          "median_ms": 4.427,
+          "min_ms": 2.435,
+          "p50_ms": 4.427,
+          "p95_ms": 5.198,
+          "p99_ms": 5.198,
+          "total_ms": 12.06
+        },
+        "parse": {
+          "count": 3,
+          "max_ms": 3964.554,
+          "mean_ms": 2115.012,
+          "median_ms": 2326.734,
+          "min_ms": 53.748,
+          "p50_ms": 2326.734,
+          "p95_ms": 3964.554,
+          "p99_ms": 3964.554,
+          "total_ms": 6345.036
+        },
+        "retrieve_and_answer": {
+          "count": 3,
+          "max_ms": 0.586,
+          "mean_ms": 0.3393333333333333,
+          "median_ms": 0.295,
+          "min_ms": 0.137,
+          "p50_ms": 0.295,
+          "p95_ms": 0.586,
+          "p99_ms": 0.586,
+          "total_ms": 1.018
+        }
+      },
+      "overall": {
+        "count": 12,
+        "max_ms": 3964.554,
+        "mean_ms": 529.8879166666667,
+        "median_ms": 1.5105,
+        "min_ms": 0.104,
+        "p50_ms": 0.586,
+        "p95_ms": 3964.554,
+        "p99_ms": 3964.554,
+        "total_ms": 6358.655
+      }
+    },
+    "layout": {
+      "stamp_text_f1": 1.0,
+      "stamp_text_precision": 1.0,
+      "stamp_text_recall": 1.0,
+      "table_cell_accuracy": 1.0,
+      "table_cell_count": 12,
+      "two_column_order_accuracy": 1.0
+    },
+    "missing_prediction_count": 0,
+    "ocr": {
+      "case_count": 3,
+      "cer": 0.0044444444444444444,
+      "character_errors": 17,
+      "reference_characters": 3825,
+      "reference_words": 580,
+      "wer": 0.017241379310344827,
+      "word_errors": 10
+    },
+    "retrieval": {
+      "evaluable_query_count": 2,
+      "mrr": 1.0,
+      "query_count": 3,
+      "recall_at_k": {
+        "1": 0.75,
+        "3": 1.0,
+        "5": 1.0
+      }
+    }
+  },
+  "unexpected_prediction_ids": []
+}

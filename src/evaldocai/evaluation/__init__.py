@@ -1,0 +1,53 @@
+"""Public evaluation API for extraction, OCR, retrieval, and cited answers."""
+
+from .metrics import (
+    aggregate_latencies,
+    answer_metrics,
+    evaluate_answer,
+    evaluate_evidence,
+    evaluate_extraction,
+    evaluate_ocr,
+    evaluate_retrieval,
+    evidence_metrics,
+    extraction_metrics,
+    latency_metrics,
+    normalize_text,
+    normalized_exact_match,
+    ocr_metrics,
+    retrieval_metrics,
+    token_f1,
+)
+from .runner import (
+    evaluate_case,
+    evaluate_json_files,
+    evaluate_records,
+    load_json_records,
+    render_html_report,
+    write_html_report,
+    write_json_report,
+)
+
+__all__ = [
+    "aggregate_latencies",
+    "answer_metrics",
+    "evaluate_answer",
+    "evaluate_case",
+    "evaluate_evidence",
+    "evaluate_extraction",
+    "evaluate_json_files",
+    "evaluate_ocr",
+    "evaluate_records",
+    "evaluate_retrieval",
+    "evidence_metrics",
+    "extraction_metrics",
+    "latency_metrics",
+    "load_json_records",
+    "normalize_text",
+    "normalized_exact_match",
+    "ocr_metrics",
+    "render_html_report",
+    "retrieval_metrics",
+    "token_f1",
+    "write_html_report",
+    "write_json_report",
+]

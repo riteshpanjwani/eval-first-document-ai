@@ -1,0 +1,68 @@
+MASTER SERVICES AGREEMENT
+Agreement NS-2026-0915
+This Master Services Agreement is made as of 15 September 2026 (the "Effective Date")
+between Northstar Analytics Ltd ("Customer") and Acme Data Systems Ltd ("Supplier").
+1. TERM AND RENEWAL
+The initial term is 12 months from the Effective Date. The Agreement will automatically
+renew for successive 12-month periods unless either party gives written notice at least
+30 days before the end of the then-current term.
+2. GOVERNING LAW
+This Agreement and any non-contractual obligations arising from it are governed by the
+laws of England and Wales. The courts of England and Wales have exclusive jurisdiction.
+DOCUMENT CONTROL
+Classification: Confidential. Owner: Legal Operations. Version: 1.0. This fictional
+document exists solely to demonstrate document intelligence evaluation.
+SYNTHETIC DEMO — NOT A REAL CONTRACT
+Page 1
+COMMERCIAL SCHEDULE
+Schedule 1 to Agreement NS-2026-0915
+3. FEES AND PAYMENT
+Customer will pay the charges below. All amounts exclude applicable taxes.
+SERVICE
+FREQUENCY
+FEE
+Analytics platform licence
+Annual
+GBP 48,000
+Implementation workshop
+One-time
+GBP 6,000
+Support
+Included
+GBP 0
+4. PAYMENT TERMS
+Supplier will invoice annually in advance. Invoices are due within 30 days of receipt.
+Disputed amounts must be notified within 10 business days.
+EXECUTED
+15 SEP 2026
+SYNTHETIC DEMO — NOT A REAL CONTRACT
+Page 2
+GENERAL TERMS
+Schedule 2 — deliberately multi-column
+5. TERMINATION
+Either party may terminate for
+convenience by giving 30 days' written
+notice. A material breach may be
+terminated if it is not cured within 15
+days after notice.
+6. CONFIDENTIALITY
+Each party will protect the other's
+confidential information using
+reasonable care. These duties continue
+for three years after termination.
+7. SERVICE LEVELS
+Supplier targets 99.9% monthly
+availability, excluding scheduled
+maintenance and events outside
+Supplier's reasonable control.
+8. NOTICES
+Contract notices must be in writing
+and delivered by recorded mail or the
+agreed contract-management portal.
+9. SIGNATURES
+Signed for Northstar Analytics Ltd by
+Maya Chen, Director. Signed for Acme
+Data Systems Ltd by Oliver Grant,
+Director.
+SYNTHETIC DEMO — NOT A REAL CONTRACT
+Page 3

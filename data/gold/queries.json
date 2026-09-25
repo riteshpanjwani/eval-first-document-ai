@@ -1,0 +1,36 @@
+[
+  {
+    "id": "q1",
+    "question": "Does the Northstar agreement renew automatically, and what notice prevents renewal?",
+    "answer": "Yes. It renews automatically for successive 12-month periods unless either party gives at least 30 days' written notice.",
+    "relevant_documents": [
+      "northstar_msa_scan"
+    ],
+    "relevant_phrases": [
+      "The Agreement will automatically renew for successive 12-month periods"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "q2",
+    "question": "Compare the convenience termination notice periods in the Northstar and Bluebird agreements.",
+    "answer": "Northstar requires 30 days' written notice; Bluebird requires 60 days' written notice.",
+    "relevant_documents": [
+      "northstar_msa_scan",
+      "bluebird_supplier_native"
+    ],
+    "relevant_phrases": [
+      "convenience by giving 30 days' written notice",
+      "convenience on 60 days' written notice"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "q3",
+    "question": "What cyber-insurance limit does Harbor Labs require?",
+    "answer": null,
+    "relevant_documents": [],
+    "relevant_phrases": [],
+    "abstain": true
+  }
+]

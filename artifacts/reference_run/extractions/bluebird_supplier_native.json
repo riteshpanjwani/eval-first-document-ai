@@ -1,0 +1,186 @@
+{
+  "document_id": "doc_c9df6b40d260d244",
+  "fields": {
+    "effective_date": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 445.84991455078125,
+            "y0": 111.25,
+            "y1": 138.99000549316406
+          },
+          "block_id": "p0001-b0002-856c8f061234",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "1 October 2026"
+    },
+    "fees": {
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 443.0599060058594,
+            "y0": 237.25,
+            "y1": 264.989990234375
+          },
+          "block_id": "p0001-b0006-91e17b6957d8",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": [
+        "GBP 72,000"
+      ]
+    },
+    "governing_law": {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 428.07989501953125,
+            "y0": 349.2499694824219,
+            "y1": 376.9899597167969
+          },
+          "block_id": "p0001-b0010-662506adeac5",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "This Agreement is governed by the laws of Scotland and the courts of Scotland have\nexclusive jurisdiction."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "Scotland"
+    },
+    "initial_term": {
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 451.3898620605469,
+            "y0": 174.25,
+            "y1": 201.99000549316406
+          },
+          "block_id": "p0001-b0004-9670c7df6ba9",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "The fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "24 months"
+    },
+    "parties": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 445.84991455078125,
+            "y0": 111.25,
+            "y1": 138.99000549316406
+          },
+          "block_id": "p0001-b0002-856c8f061234",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": [
+        "Bluebird Retail PLC",
+        "Cedar Logistics Ltd"
+      ]
+    },
+    "payment_terms": {
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 443.0599060058594,
+            "y0": 237.25,
+            "y1": 264.989990234375
+          },
+          "block_id": "p0001-b0006-91e17b6957d8",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45\ndays of receipt."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "Buyer will pay undisputed invoices within 45 days of receipt."
+    },
+    "renewal_terms": {
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 451.3898620605469,
+            "y0": 174.25,
+            "y1": 201.99000549316406
+          },
+          "block_id": "p0001-b0004-9670c7df6ba9",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "The fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "This Agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension."
+    },
+    "signatures_present": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "stamps_present": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "termination_notice": {
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 432.73992919921875,
+            "y0": 300.25,
+            "y1": 313.989990234375
+          },
+          "block_id": "p0001-b0008-ee598fd1deb5",
+          "document_id": "doc_c9df6b40d260d244",
+          "page": 1,
+          "quote": "Either party may terminate this Agreement for convenience on 60 days' written notice."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "60 days' written notice"
+    }
+  },
+  "schema_version": "1.0",
+  "warnings": []
+}

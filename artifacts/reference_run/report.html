@@ -1,0 +1,850 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eval-First Document AI</title>
+  <style>
+    :root { color-scheme: dark; --bg:#07111f; --panel:#0f1d31; --line:#263a55;
+      --text:#edf5ff; --muted:#9db0c8; --cyan:#57d6d2; --violet:#9b8cff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:radial-gradient(circle at 15% 0,#17294a 0,var(--bg) 42%);
+      color:var(--text); font:15px/1.55 ui-sans-serif,system-ui,-apple-system,sans-serif; }
+    main { width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:52px 0 72px; }
+    header { margin-bottom:30px; } h1 { margin:0 0 7px; font-size:clamp(29px,5vw,48px);
+      letter-spacing:-.035em; } header p { color:var(--muted); margin:0; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(155px,1fr)); gap:12px;
+      margin:26px 0; } .card,.panel,details {
+      background:color-mix(in srgb,var(--panel) 90%,transparent);
+      border:1px solid var(--line); border-radius:14px; box-shadow:0 14px 38px #0004; }
+    .card { padding:18px; } .card span { color:var(--muted); display:block; font-size:12px;
+      letter-spacing:.07em; text-transform:uppercase; } .card strong { display:block;
+      font-size:25px; margin-top:7px; color:var(--cyan); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .panel { overflow:hidden; } .panel h2 { font-size:16px; padding:16px 18px; margin:0;
+      border-bottom:1px solid var(--line); } .wide { grid-column:1/-1; }
+    table { width:100%; border-collapse:collapse; } th,td { padding:11px 18px;
+      border-bottom:1px solid #ffffff0d; text-align:right; } th:first-child { text-align:left; }
+    td { font-variant-numeric:tabular-nums; } .cases { margin-top:28px; }
+    details { margin:10px 0; overflow:hidden; } summary { cursor:pointer; padding:14px 17px;
+      font-weight:650; } pre { overflow:auto; padding:17px; margin:0;
+      border-top:1px solid var(--line);
+      background:#050b14; color:#bfd4eb; font-size:12px; }
+    footer { margin-top:26px; color:var(--muted); font-size:12px; }
+    @media (max-width:700px) { .grid { grid-template-columns:1fr; } .wide { grid-column:auto; }
+      th,td { padding:9px 11px; } }
+  </style>
+</head>
+<body><main>
+  <header><h1>Eval-First Document AI</h1><p>Deterministic quality gates for extraction, evidence,
+  OCR, retrieval, cited answers, and latency.</p></header>
+  <section class="cards"><article class="card"><span>Extraction exact</span><strong>96.7%</strong></article><article class="card"><span>Token F1</span><strong>98.3%</strong></article><article class="card"><span>OCR CER</span><strong>0.4%</strong></article><article class="card"><span>Retrieval MRR</span><strong>100.0%</strong></article><article class="card"><span>Citation precision</span><strong>100.0%</strong></article><article class="card"><span>P95 latency</span><strong>3,964.55 ms</strong></article></section>
+  <section class="grid"><section class="panel"><h2>Layout</h2><table><tbody><tr><th>Table Cell Count</th><td>12.00</td></tr><tr><th>Table Cell Accuracy</th><td>100.0%</td></tr><tr><th>Stamp Text Precision</th><td>100.0%</td></tr><tr><th>Stamp Text Recall</th><td>100.0%</td></tr><tr><th>Stamp Text F1</th><td>100.0%</td></tr><tr><th>Two Column Order Accuracy</th><td>100.0%</td></tr></tbody></table></section><section class="panel"><h2>Extraction</h2><table><tbody><tr><th>Field Instance Count</th><td>30.00</td></tr><tr><th>Exact Match</th><td>96.7%</td></tr><tr><th>Token F1</th><td>98.3%</td></tr></tbody></table></section><section class="panel"><h2>Evidence</h2><table><tbody><tr><th>Predicted Evidence Count</th><td>26.00</td></tr><tr><th>Reference Evidence Count</th><td>27.00</td></tr><tr><th>Page Correctness</th><td>100.0%</td></tr><tr><th>Block Correctness</th><td>96.2%</td></tr><tr><th>Predicted Value Count</th><td>22.00</td></tr><tr><th>Unsupported Value Rate</th><td>0.0%</td></tr></tbody></table></section><section class="panel"><h2>Ocr</h2><table><tbody><tr><th>Case Count</th><td>3.00</td></tr><tr><th>Character Errors</th><td>17.00</td></tr><tr><th>Reference Characters</th><td>3,825.00</td></tr><tr><th>Cer</th><td>0.4%</td></tr><tr><th>Word Errors</th><td>10.00</td></tr><tr><th>Reference Words</th><td>580.00</td></tr><tr><th>Wer</th><td>1.7%</td></tr></tbody></table></section><section class="panel"><h2>Retrieval</h2><table><tbody><tr><th>Query Count</th><td>3.00</td></tr><tr><th>Evaluable Query Count</th><td>2.00</td></tr><tr><th>Mrr</th><td>100.0%</td></tr><tr><th>Recall At 1</th><td>75.0%</td></tr><tr><th>Recall At 3</th><td>100.0%</td></tr><tr><th>Recall At 5</th><td>100.0%</td></tr></tbody></table></section><section class="panel"><h2>Answer</h2><table><tbody><tr><th>Case Count</th><td>3.00</td></tr><tr><th>Citation Precision</th><td>100.0%</td></tr><tr><th>Citation Completeness</th><td>100.0%</td></tr><tr><th>Citation F1</th><td>100.0%</td></tr><tr><th>Abstention Accuracy</th><td>100.0%</td></tr></tbody></table></section><section class="panel wide"><h2>Extraction by field</h2><table><thead><tr><th>Field</th><th>N</th><th>Exact</th><th>Token F1</th></tr></thead><tbody><tr><th>effective_date</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>fees</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>governing_law</th><td>3</td><td>66.7%</td><td>83.3%</td></tr><tr><th>initial_term</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>parties</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>payment_terms</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>renewal_terms</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>signatures_present</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>stamps_present</th><td>3</td><td>100.0%</td><td>100.0%</td></tr><tr><th>termination_notice</th><td>3</td><td>100.0%</td><td>100.0%</td></tr></tbody></table></section><section class="panel wide"><h2>Latency by stage (ms)</h2><table><thead><tr><th>Stage</th><th>N</th><th>Mean</th><th>P95</th><th>Max</th></tr></thead><tbody><tr><th>chunk</th><td>3</td><td>0.18</td><td>0.28</td><td>0.28</td></tr><tr><th>extract</th><td>3</td><td>4.02</td><td>5.20</td><td>5.20</td></tr><tr><th>parse</th><td>3</td><td>2,115.01</td><td>3,964.55</td><td>3,964.55</td></tr><tr><th>retrieve_and_answer</th><td>3</td><td>0.34</td><td>0.59</td><td>0.59</td></tr></tbody></table></section></section>
+  <section class="cases"><h2>Case details</h2><details><summary>bluebird_supplier_native</summary><pre>{
+  &quot;case_id&quot;: &quot;bluebird_supplier_native&quot;,
+  &quot;metrics&quot;: {
+    &quot;evidence&quot;: {
+      &quot;block_correct_count&quot;: 8,
+      &quot;block_correctness&quot;: 1.0,
+      &quot;page_correct_count&quot;: 8,
+      &quot;page_correctness&quot;: 1.0,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;fees&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;governing_law&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;initial_term&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;parties&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;payment_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;signatures_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;stamps_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;termination_notice&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        }
+      },
+      &quot;predicted_evidence_count&quot;: 8,
+      &quot;predicted_value_count&quot;: 8,
+      &quot;reference_evidence_count&quot;: 8,
+      &quot;unsupported_value_count&quot;: 0,
+      &quot;unsupported_value_rate&quot;: 0.0
+    },
+    &quot;extraction&quot;: {
+      &quot;exact_match&quot;: 1.0,
+      &quot;field_count&quot;: 10,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;1 october 2026&quot;,
+          &quot;reference_normalized&quot;: &quot;1 october 2026&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;fees&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;gbp 72 000&quot;,
+          &quot;reference_normalized&quot;: &quot;gbp 72 000&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;governing_law&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;scotland&quot;,
+          &quot;reference_normalized&quot;: &quot;scotland&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;initial_term&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;24 months&quot;,
+          &quot;reference_normalized&quot;: &quot;24 months&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;parties&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;bluebird retail plc | cedar logistics ltd&quot;,
+          &quot;reference_normalized&quot;: &quot;bluebird retail plc | cedar logistics ltd&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;payment_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;buyer will pay undisputed invoices within 45 days of receipt&quot;,
+          &quot;reference_normalized&quot;: &quot;buyer will pay undisputed invoices within 45 days of receipt&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;this agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension&quot;,
+          &quot;reference_normalized&quot;: &quot;this agreement does not renew automatically and expires at the end of the fixed term unless the parties sign a written extension&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;signatures_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;stamps_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;termination_notice&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;60 days written notice&quot;,
+          &quot;reference_normalized&quot;: &quot;60 days written notice&quot;,
+          &quot;token_f1&quot;: 1.0
+        }
+      },
+      &quot;token_f1&quot;: 1.0
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;chunk&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.277,
+          &quot;mean_ms&quot;: 0.277,
+          &quot;median_ms&quot;: 0.277,
+          &quot;min_ms&quot;: 0.277,
+          &quot;p50_ms&quot;: 0.277,
+          &quot;p95_ms&quot;: 0.277,
+          &quot;p99_ms&quot;: 0.277,
+          &quot;total_ms&quot;: 0.277
+        },
+        &quot;extract&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 5.198,
+          &quot;mean_ms&quot;: 5.198,
+          &quot;median_ms&quot;: 5.198,
+          &quot;min_ms&quot;: 5.198,
+          &quot;p50_ms&quot;: 5.198,
+          &quot;p95_ms&quot;: 5.198,
+          &quot;p99_ms&quot;: 5.198,
+          &quot;total_ms&quot;: 5.198
+        },
+        &quot;parse&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 53.748,
+          &quot;mean_ms&quot;: 53.748,
+          &quot;median_ms&quot;: 53.748,
+          &quot;min_ms&quot;: 53.748,
+          &quot;p50_ms&quot;: 53.748,
+          &quot;p95_ms&quot;: 53.748,
+          &quot;p99_ms&quot;: 53.748,
+          &quot;total_ms&quot;: 53.748
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 3,
+        &quot;max_ms&quot;: 53.748,
+        &quot;mean_ms&quot;: 19.741,
+        &quot;median_ms&quot;: 5.198,
+        &quot;min_ms&quot;: 0.277,
+        &quot;p50_ms&quot;: 5.198,
+        &quot;p95_ms&quot;: 53.748,
+        &quot;p99_ms&quot;: 53.748,
+        &quot;total_ms&quot;: 59.223
+      }
+    },
+    &quot;ocr&quot;: {
+      &quot;cer&quot;: 0.0,
+      &quot;character_errors&quot;: 0,
+      &quot;predicted_characters&quot;: 727,
+      &quot;predicted_words&quot;: 117,
+      &quot;reference_characters&quot;: 727,
+      &quot;reference_words&quot;: 117,
+      &quot;wer&quot;: 0.0,
+      &quot;word_errors&quot;: 0
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details><details><summary>harbor_nda_scan</summary><pre>{
+  &quot;case_id&quot;: &quot;harbor_nda_scan&quot;,
+  &quot;metrics&quot;: {
+    &quot;evidence&quot;: {
+      &quot;block_correct_count&quot;: 5,
+      &quot;block_correctness&quot;: 1.0,
+      &quot;page_correct_count&quot;: 5,
+      &quot;page_correctness&quot;: 1.0,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;fees&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;governing_law&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;initial_term&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;parties&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 2,
+          &quot;reference_evidence_count&quot;: 2,
+          &quot;value_supported&quot;: true
+        },
+        &quot;payment_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;signatures_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 2,
+          &quot;value_supported&quot;: true
+        },
+        &quot;stamps_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        },
+        &quot;termination_notice&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 0,
+          &quot;reference_evidence_count&quot;: 0,
+          &quot;value_supported&quot;: null
+        }
+      },
+      &quot;predicted_evidence_count&quot;: 5,
+      &quot;predicted_value_count&quot;: 4,
+      &quot;reference_evidence_count&quot;: 6,
+      &quot;unsupported_value_count&quot;: 0,
+      &quot;unsupported_value_rate&quot;: 0.0
+    },
+    &quot;extraction&quot;: {
+      &quot;exact_match&quot;: 0.9,
+      &quot;field_count&quot;: 10,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;20 august 2026&quot;,
+          &quot;reference_normalized&quot;: &quot;20 august 2026&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;fees&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;governing_law&quot;: {
+          &quot;exact_match&quot;: 0.0,
+          &quot;prediction_normalized&quot;: &quot;state of california&quot;,
+          &quot;reference_normalized&quot;: &quot;california&quot;,
+          &quot;token_f1&quot;: 0.5
+        },
+        &quot;initial_term&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;parties&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;harbor labs ltd | priya shah&quot;,
+          &quot;reference_normalized&quot;: &quot;harbor labs ltd | priya shah&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;payment_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;signatures_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;true&quot;,
+          &quot;reference_normalized&quot;: &quot;true&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;stamps_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;termination_notice&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;&quot;,
+          &quot;reference_normalized&quot;: &quot;&quot;,
+          &quot;token_f1&quot;: 1.0
+        }
+      },
+      &quot;token_f1&quot;: 0.95
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;chunk&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.104,
+          &quot;mean_ms&quot;: 0.104,
+          &quot;median_ms&quot;: 0.104,
+          &quot;min_ms&quot;: 0.104,
+          &quot;p50_ms&quot;: 0.104,
+          &quot;p95_ms&quot;: 0.104,
+          &quot;p99_ms&quot;: 0.104,
+          &quot;total_ms&quot;: 0.104
+        },
+        &quot;extract&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 2.435,
+          &quot;mean_ms&quot;: 2.435,
+          &quot;median_ms&quot;: 2.435,
+          &quot;min_ms&quot;: 2.435,
+          &quot;p50_ms&quot;: 2.435,
+          &quot;p95_ms&quot;: 2.435,
+          &quot;p99_ms&quot;: 2.435,
+          &quot;total_ms&quot;: 2.435
+        },
+        &quot;parse&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 2326.734,
+          &quot;mean_ms&quot;: 2326.734,
+          &quot;median_ms&quot;: 2326.734,
+          &quot;min_ms&quot;: 2326.734,
+          &quot;p50_ms&quot;: 2326.734,
+          &quot;p95_ms&quot;: 2326.734,
+          &quot;p99_ms&quot;: 2326.734,
+          &quot;total_ms&quot;: 2326.734
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 3,
+        &quot;max_ms&quot;: 2326.734,
+        &quot;mean_ms&quot;: 776.4243333333334,
+        &quot;median_ms&quot;: 2.435,
+        &quot;min_ms&quot;: 0.104,
+        &quot;p50_ms&quot;: 2.435,
+        &quot;p95_ms&quot;: 2326.734,
+        &quot;p99_ms&quot;: 2326.734,
+        &quot;total_ms&quot;: 2329.273
+      }
+    },
+    &quot;ocr&quot;: {
+      &quot;cer&quot;: 0.0011363636363636363,
+      &quot;character_errors&quot;: 1,
+      &quot;predicted_characters&quot;: 879,
+      &quot;predicted_words&quot;: 132,
+      &quot;reference_characters&quot;: 880,
+      &quot;reference_words&quot;: 133,
+      &quot;wer&quot;: 0.015037593984962405,
+      &quot;word_errors&quot;: 2
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details><details><summary>northstar_msa_scan</summary><pre>{
+  &quot;case_id&quot;: &quot;northstar_msa_scan&quot;,
+  &quot;metrics&quot;: {
+    &quot;evidence&quot;: {
+      &quot;block_correct_count&quot;: 12,
+      &quot;block_correctness&quot;: 0.9230769230769231,
+      &quot;page_correct_count&quot;: 13,
+      &quot;page_correctness&quot;: 1.0,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;fees&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;governing_law&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;initial_term&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;parties&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;payment_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 3,
+          &quot;reference_evidence_count&quot;: 3,
+          &quot;value_supported&quot;: true
+        },
+        &quot;signatures_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 2,
+          &quot;value_supported&quot;: true
+        },
+        &quot;stamps_present&quot;: {
+          &quot;block_correctness&quot;: 1.0,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 1,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        },
+        &quot;termination_notice&quot;: {
+          &quot;block_correctness&quot;: 0.5,
+          &quot;page_correctness&quot;: 1.0,
+          &quot;predicted_evidence_count&quot;: 2,
+          &quot;reference_evidence_count&quot;: 1,
+          &quot;value_supported&quot;: true
+        }
+      },
+      &quot;predicted_evidence_count&quot;: 13,
+      &quot;predicted_value_count&quot;: 10,
+      &quot;reference_evidence_count&quot;: 13,
+      &quot;unsupported_value_count&quot;: 0,
+      &quot;unsupported_value_rate&quot;: 0.0
+    },
+    &quot;extraction&quot;: {
+      &quot;exact_match&quot;: 1.0,
+      &quot;field_count&quot;: 10,
+      &quot;per_field&quot;: {
+        &quot;effective_date&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;15 september 2026&quot;,
+          &quot;reference_normalized&quot;: &quot;15 september 2026&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;fees&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;gbp 0 | gbp 48 000 | gbp 6 000&quot;,
+          &quot;reference_normalized&quot;: &quot;gbp 0 | gbp 48 000 | gbp 6 000&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;governing_law&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;england and wales&quot;,
+          &quot;reference_normalized&quot;: &quot;england and wales&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;initial_term&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;12 months&quot;,
+          &quot;reference_normalized&quot;: &quot;12 months&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;parties&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;acme data systems ltd | northstar analytics ltd&quot;,
+          &quot;reference_normalized&quot;: &quot;acme data systems ltd | northstar analytics ltd&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;payment_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;invoices are due within 30 days of receipt&quot;,
+          &quot;reference_normalized&quot;: &quot;invoices are due within 30 days of receipt&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;renewal_terms&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;the agreement will automatically renew for successive 12 month periods unless either party gives written notice at least 30 days before the end of the then current term&quot;,
+          &quot;reference_normalized&quot;: &quot;the agreement will automatically renew for successive 12 month periods unless either party gives written notice at least 30 days before the end of the then current term&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;signatures_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;true&quot;,
+          &quot;reference_normalized&quot;: &quot;true&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;stamps_present&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;true&quot;,
+          &quot;reference_normalized&quot;: &quot;true&quot;,
+          &quot;token_f1&quot;: 1.0
+        },
+        &quot;termination_notice&quot;: {
+          &quot;exact_match&quot;: 1.0,
+          &quot;prediction_normalized&quot;: &quot;30 days written notice&quot;,
+          &quot;reference_normalized&quot;: &quot;30 days written notice&quot;,
+          &quot;token_f1&quot;: 1.0
+        }
+      },
+      &quot;token_f1&quot;: 1.0
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;chunk&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.16,
+          &quot;mean_ms&quot;: 0.16,
+          &quot;median_ms&quot;: 0.16,
+          &quot;min_ms&quot;: 0.16,
+          &quot;p50_ms&quot;: 0.16,
+          &quot;p95_ms&quot;: 0.16,
+          &quot;p99_ms&quot;: 0.16,
+          &quot;total_ms&quot;: 0.16
+        },
+        &quot;extract&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 4.427,
+          &quot;mean_ms&quot;: 4.427,
+          &quot;median_ms&quot;: 4.427,
+          &quot;min_ms&quot;: 4.427,
+          &quot;p50_ms&quot;: 4.427,
+          &quot;p95_ms&quot;: 4.427,
+          &quot;p99_ms&quot;: 4.427,
+          &quot;total_ms&quot;: 4.427
+        },
+        &quot;parse&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 3964.554,
+          &quot;mean_ms&quot;: 3964.554,
+          &quot;median_ms&quot;: 3964.554,
+          &quot;min_ms&quot;: 3964.554,
+          &quot;p50_ms&quot;: 3964.554,
+          &quot;p95_ms&quot;: 3964.554,
+          &quot;p99_ms&quot;: 3964.554,
+          &quot;total_ms&quot;: 3964.554
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 3,
+        &quot;max_ms&quot;: 3964.554,
+        &quot;mean_ms&quot;: 1323.047,
+        &quot;median_ms&quot;: 4.427,
+        &quot;min_ms&quot;: 0.16,
+        &quot;p50_ms&quot;: 4.427,
+        &quot;p95_ms&quot;: 3964.554,
+        &quot;p99_ms&quot;: 3964.554,
+        &quot;total_ms&quot;: 3969.141
+      }
+    },
+    &quot;ocr&quot;: {
+      &quot;cer&quot;: 0.007213706041478809,
+      &quot;character_errors&quot;: 16,
+      &quot;predicted_characters&quot;: 2234,
+      &quot;predicted_words&quot;: 338,
+      &quot;reference_characters&quot;: 2218,
+      &quot;reference_words&quot;: 330,
+      &quot;wer&quot;: 0.024242424242424242,
+      &quot;word_errors&quot;: 8
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details><details><summary>q1</summary><pre>{
+  &quot;case_id&quot;: &quot;q1&quot;,
+  &quot;metrics&quot;: {
+    &quot;answer&quot;: {
+      &quot;abstention_accuracy&quot;: 1.0,
+      &quot;citation_completeness&quot;: 1.0,
+      &quot;citation_f1&quot;: 1.0,
+      &quot;citation_precision&quot;: 1.0,
+      &quot;correct_citation_count&quot;: 1,
+      &quot;covered_reference_citation_count&quot;: 1,
+      &quot;expected_abstention&quot;: false,
+      &quot;predicted_abstention&quot;: false,
+      &quot;predicted_citation_count&quot;: 1,
+      &quot;reference_citation_count&quot;: 1
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;retrieve_and_answer&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.586,
+          &quot;mean_ms&quot;: 0.586,
+          &quot;median_ms&quot;: 0.586,
+          &quot;min_ms&quot;: 0.586,
+          &quot;p50_ms&quot;: 0.586,
+          &quot;p95_ms&quot;: 0.586,
+          &quot;p99_ms&quot;: 0.586,
+          &quot;total_ms&quot;: 0.586
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 1,
+        &quot;max_ms&quot;: 0.586,
+        &quot;mean_ms&quot;: 0.586,
+        &quot;median_ms&quot;: 0.586,
+        &quot;min_ms&quot;: 0.586,
+        &quot;p50_ms&quot;: 0.586,
+        &quot;p95_ms&quot;: 0.586,
+        &quot;p99_ms&quot;: 0.586,
+        &quot;total_ms&quot;: 0.586
+      }
+    },
+    &quot;retrieval&quot;: {
+      &quot;evaluable&quot;: true,
+      &quot;first_relevant_rank&quot;: 1,
+      &quot;mrr&quot;: 1.0,
+      &quot;recall_at_k&quot;: {
+        &quot;1&quot;: 1.0,
+        &quot;3&quot;: 1.0,
+        &quot;5&quot;: 1.0
+      },
+      &quot;relevant_count&quot;: 1,
+      &quot;retrieved_count&quot;: 5
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details><details><summary>q2</summary><pre>{
+  &quot;case_id&quot;: &quot;q2&quot;,
+  &quot;metrics&quot;: {
+    &quot;answer&quot;: {
+      &quot;abstention_accuracy&quot;: 1.0,
+      &quot;citation_completeness&quot;: 1.0,
+      &quot;citation_f1&quot;: 1.0,
+      &quot;citation_precision&quot;: 1.0,
+      &quot;correct_citation_count&quot;: 2,
+      &quot;covered_reference_citation_count&quot;: 2,
+      &quot;expected_abstention&quot;: false,
+      &quot;predicted_abstention&quot;: false,
+      &quot;predicted_citation_count&quot;: 2,
+      &quot;reference_citation_count&quot;: 2
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;retrieve_and_answer&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.295,
+          &quot;mean_ms&quot;: 0.295,
+          &quot;median_ms&quot;: 0.295,
+          &quot;min_ms&quot;: 0.295,
+          &quot;p50_ms&quot;: 0.295,
+          &quot;p95_ms&quot;: 0.295,
+          &quot;p99_ms&quot;: 0.295,
+          &quot;total_ms&quot;: 0.295
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 1,
+        &quot;max_ms&quot;: 0.295,
+        &quot;mean_ms&quot;: 0.295,
+        &quot;median_ms&quot;: 0.295,
+        &quot;min_ms&quot;: 0.295,
+        &quot;p50_ms&quot;: 0.295,
+        &quot;p95_ms&quot;: 0.295,
+        &quot;p99_ms&quot;: 0.295,
+        &quot;total_ms&quot;: 0.295
+      }
+    },
+    &quot;retrieval&quot;: {
+      &quot;evaluable&quot;: true,
+      &quot;first_relevant_rank&quot;: 1,
+      &quot;mrr&quot;: 1.0,
+      &quot;recall_at_k&quot;: {
+        &quot;1&quot;: 0.5,
+        &quot;3&quot;: 1.0,
+        &quot;5&quot;: 1.0
+      },
+      &quot;relevant_count&quot;: 2,
+      &quot;retrieved_count&quot;: 5
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details><details><summary>q3</summary><pre>{
+  &quot;case_id&quot;: &quot;q3&quot;,
+  &quot;metrics&quot;: {
+    &quot;answer&quot;: {
+      &quot;abstention_accuracy&quot;: 1.0,
+      &quot;citation_completeness&quot;: 1.0,
+      &quot;citation_f1&quot;: 1.0,
+      &quot;citation_precision&quot;: 1.0,
+      &quot;correct_citation_count&quot;: 0,
+      &quot;covered_reference_citation_count&quot;: 0,
+      &quot;expected_abstention&quot;: true,
+      &quot;predicted_abstention&quot;: true,
+      &quot;predicted_citation_count&quot;: 0,
+      &quot;reference_citation_count&quot;: 0
+    },
+    &quot;latency&quot;: {
+      &quot;by_stage&quot;: {
+        &quot;retrieve_and_answer&quot;: {
+          &quot;count&quot;: 1,
+          &quot;max_ms&quot;: 0.137,
+          &quot;mean_ms&quot;: 0.137,
+          &quot;median_ms&quot;: 0.137,
+          &quot;min_ms&quot;: 0.137,
+          &quot;p50_ms&quot;: 0.137,
+          &quot;p95_ms&quot;: 0.137,
+          &quot;p99_ms&quot;: 0.137,
+          &quot;total_ms&quot;: 0.137
+        }
+      },
+      &quot;overall&quot;: {
+        &quot;count&quot;: 1,
+        &quot;max_ms&quot;: 0.137,
+        &quot;mean_ms&quot;: 0.137,
+        &quot;median_ms&quot;: 0.137,
+        &quot;min_ms&quot;: 0.137,
+        &quot;p50_ms&quot;: 0.137,
+        &quot;p95_ms&quot;: 0.137,
+        &quot;p99_ms&quot;: 0.137,
+        &quot;total_ms&quot;: 0.137
+      }
+    },
+    &quot;retrieval&quot;: {
+      &quot;evaluable&quot;: false,
+      &quot;first_relevant_rank&quot;: null,
+      &quot;mrr&quot;: null,
+      &quot;recall_at_k&quot;: {
+        &quot;1&quot;: null,
+        &quot;3&quot;: null,
+        &quot;5&quot;: null
+      },
+      &quot;relevant_count&quot;: 0,
+      &quot;retrieved_count&quot;: 2
+    }
+  },
+  &quot;prediction_missing&quot;: false
+}</pre></details></section>
+  <footer>Schema 1.0 ·
+  6 evaluated cases</footer>
+</main></body></html>

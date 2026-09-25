@@ -1,0 +1,1120 @@
+{
+  "document_id": "doc_f070d063415e53c8",
+  "file_name": "northstar_msa_scan.pdf",
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 378.8117127618701,
+            "y0": 48.37471747070921,
+            "y1": 68.74301464958002
+          },
+          "block_id": "p0001-b0000-fe2305e1bb94",
+          "confidence": 0.99966,
+          "kind": "title",
+          "metadata": {
+            "char_count": 25,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 0,
+          "source": "rapidocr",
+          "text": "MASTER SERVICES AGREEMENT"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 148.39611348384673,
+            "y0": 75.10810992080765,
+            "y1": 86.14094099197769
+          },
+          "block_id": "p0001-b0001-dce158e09f2c",
+          "confidence": 0.99933,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 22,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 1,
+          "source": "rapidocr",
+          "text": "Agreement NS-2026-0915"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 447.7250311274572,
+            "y0": 111.60132207688822,
+            "y1": 124.7558497410728
+          },
+          "block_id": "p0001-b0002-9ac9b8478d22",
+          "confidence": 0.99041,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 85,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 2,
+          "source": "rapidocr",
+          "text": "This Master Services Agreement is made as of 15 September 2026 (the \"Effective Date\")"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 440.53773904847657,
+            "y0": 126.45320921235803,
+            "y1": 138.75905164871597
+          },
+          "block_id": "p0001-b0003-dd1470d013af",
+          "confidence": 0.99842,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 84,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 3,
+          "source": "rapidocr",
+          "text": "between Northstar Analytics Ltd (\"Customer\") and Acme Data Systems Ltd (\"Supplier\")."
+        },
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 183.064146166084,
+            "y0": 156.1569724989296,
+            "y1": 167.61414069182894
+          },
+          "block_id": "p0001-b0004-0e57c9ab571f",
+          "confidence": 0.9939,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 19,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 4,
+          "source": "rapidocr",
+          "text": "1. TERM AND RENEWAL"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 436.3099175941834,
+            "y0": 177.3739603978111,
+            "y1": 189.679802834169
+          },
+          "block_id": "p0001-b0005-147c4b9f2c32",
+          "confidence": 0.99445,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 87,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 5,
+          "source": "rapidocr",
+          "text": "The initial term is 12 months from the Effective Date. The Agreement will automatically"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 436.7326865596595,
+            "y0": 190.95282518372494,
+            "y1": 204.1073528479095
+          },
+          "block_id": "p0001-b0006-31f818aabacd",
+          "confidence": 0.99658,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 87,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 6,
+          "source": "rapidocr",
+          "text": "renew for successive 12-month periods unless either party gives written notice at least"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 267.19754268740724,
+            "y0": 205.80470133482672,
+            "y1": 218.1105547555527
+          },
+          "block_id": "p0001-b0007-a3ba41069f59",
+          "confidence": 0.99928,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 48,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 7,
+          "source": "rapidocr",
+          "text": "30 days before the end of the then-current term."
+        },
+        {
+          "bbox": {
+            "x0": 52.42483446377351,
+            "x1": 161.9250938110898,
+            "y0": 233.3867790127518,
+            "y1": 244.84395819001918
+          },
+          "block_id": "p0001-b0008-e6582fd5d75e",
+          "confidence": 0.97245,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 16,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 8,
+          "source": "rapidocr",
+          "text": "2. GOVERNING LAW"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 440.53773904847657,
+            "y0": 254.17941880553593,
+            "y1": 267.3339464697205
+          },
+          "block_id": "p0001-b0009-16918ffc2e80",
+          "confidence": 0.98781,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 86,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 9,
+          "source": "rapidocr",
+          "text": "This Agreement and any non-contractual obligations arising from it are governed by the"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 449.41615092253903,
+            "y0": 268.1826426819152,
+            "y1": 281.33717034609975
+          },
+          "block_id": "p0001-b0010-0a3c32ed1454",
+          "confidence": 0.9949,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 87,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 10,
+          "source": "rapidocr",
+          "text": "laws of England and Wales. The courts of England and Wales have exclusive jurisdiction."
+        },
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 175.03130517285678,
+            "y0": 296.1890464972015,
+            "y1": 307.6462256744689
+          },
+          "block_id": "p0001-b0011-4158e2a87446",
+          "confidence": 0.97784,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 16,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 11,
+          "source": "rapidocr",
+          "text": "DOCUMENT CONTROL"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 409.2519569396972,
+            "y0": 316.55736015262437,
+            "y1": 329.71188781680894
+          },
+          "block_id": "p0001-b0012-9ad0d8219e05",
+          "confidence": 0.99195,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 83,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 12,
+          "source": "rapidocr",
+          "text": "Classification: Confidential. Owner: Legal Operations. Version: 1.0. This fictional"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 375.42947317170655,
+            "y0": 330.98488819762883,
+            "y1": 343.7150897244521
+          },
+          "block_id": "p0001-b0013-d6d030759ae6",
+          "confidence": 0.9992,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 71,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 13,
+          "source": "rapidocr",
+          "text": "document exists solely to demonstrate document intelligence evaluation."
+        },
+        {
+          "bbox": {
+            "x0": 54.115959750502476,
+            "x1": 212.2360395143054,
+            "y0": 807.0939288073853,
+            "y1": 815.5807151794434
+          },
+          "block_id": "p0001-b0014-fa4f35cfaa97",
+          "confidence": 0.9703,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 36,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 14,
+          "source": "rapidocr",
+          "text": "SYNTHETIC DEMO — NOT A REAL CONTRACT"
+        },
+        {
+          "bbox": {
+            "x0": 517.4838434908191,
+            "x1": 544.5418480784826,
+            "y0": 804.9722761518428,
+            "y1": 816.8537594977354
+          },
+          "block_id": "p0001-b0015-4d79f8e3ac82",
+          "confidence": 0.93398,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 6,
+            "ocr_dpi": 200
+          },
+          "page": 1,
+          "reading_order": 15,
+          "source": "rapidocr",
+          "text": "Page 1"
+        }
+      ],
+      "height": 841.8897705078125,
+      "image_path": null,
+      "page": 1,
+      "width": 595.2755737304688
+    },
+    {
+      "blocks": [
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 309.8984163628717,
+            "y0": 47.52603773506659,
+            "y1": 68.31867752785071
+          },
+          "block_id": "p0002-b0000-c04b186e8b18",
+          "confidence": 0.99746,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 19,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 0,
+          "source": "rapidocr",
+          "text": "COMMERCIAL SCHEDULE"
+        },
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 200.82094794762023,
+            "y0": 74.25943018516503,
+            "y1": 85.29226125633507
+          },
+          "block_id": "p0002-b0001-d460f82f3f19",
+          "confidence": 0.99824,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 36,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 1,
+          "source": "rapidocr",
+          "text": "Schedule 1 to Agreement NS-2026-0915"
+        },
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 181.3730263710022,
+            "y0": 110.75263684906159,
+            "y1": 123.48282739151685
+          },
+          "block_id": "p0002-b0002-0a664fb30440",
+          "confidence": 0.99766,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 19,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 2,
+          "source": "rapidocr",
+          "text": "3. FEES AND PAYMENT"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 391.0723642260962,
+            "y0": 132.39396186967235,
+            "y1": 146.82150089904482
+          },
+          "block_id": "p0002-b0003-02170fbaa784",
+          "confidence": 0.99818,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 74,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 3,
+          "source": "rapidocr",
+          "text": "Customer will pay the charges below. All amounts exclude applicable taxes."
+        },
+        {
+          "bbox": {
+            "x0": 53.62518771816194,
+            "x1": 542.3701871897318,
+            "y0": 167.73006971211655,
+            "y1": 306.3053418991656
+          },
+          "block_id": "p0002-b0004-05c9f5e84484",
+          "confidence": 0.9929766666666667,
+          "kind": "table",
+          "metadata": {
+            "cell_count": 12,
+            "column_count": 3,
+            "format": "pipe-delimited",
+            "row_count": 4,
+            "table_id": 1
+          },
+          "page": 2,
+          "reading_order": 4,
+          "source": "rapidocr",
+          "text": "SERVICE | FREQUENCY | FEE\nAnalytics platform licence | Annual | GBP 48,000\nImplementation workshop | One-time | GBP 6,000\nSupport | Included | GBP 0"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 163.19344464069547,
+            "y0": 322.922449931668,
+            "y1": 336.50130373321383
+          },
+          "block_id": "p0002-b0005-e0e5951efa63",
+          "confidence": 0.99727,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 16,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 5,
+          "source": "rapidocr",
+          "text": "4. PAYMENT TERMS"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 425.317616959563,
+            "y0": 344.9881120740081,
+            "y1": 359.4156401190125
+          },
+          "block_id": "p0002-b0006-de42a25695fa",
+          "confidence": 0.99381,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 86,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 6,
+          "source": "rapidocr",
+          "text": "Supplier will invoice annually in advance. Invoices are due within 30 days of receipt."
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 320.467948032016,
+            "y0": 359.4156401190125,
+            "y1": 372.9945158892944
+          },
+          "block_id": "p0002-b0007-3d00e7573979",
+          "confidence": 0.9889,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 58,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 7,
+          "source": "rapidocr",
+          "text": "Disputed amounts must be notified within 10 business days."
+        },
+        {
+          "bbox": {
+            "x0": 412.63419652986084,
+            "x1": 506.4915428561988,
+            "y0": 687.0058313428069,
+            "y1": 718.4069760693998
+          },
+          "block_id": "p0002-b0008-5e112839c225",
+          "confidence": 0.99992,
+          "kind": "stamp",
+          "metadata": {
+            "ocr_dpi": 200,
+            "red_pixel_density": 0.1784,
+            "stamp_detector": "rgb-red-region"
+          },
+          "page": 2,
+          "reading_order": 8,
+          "source": "rapidocr",
+          "text": "EXECUTED"
+        },
+        {
+          "bbox": {
+            "x0": 438.42385028791864,
+            "x1": 485.77529241656373,
+            "y0": 711.1931900781615,
+            "y1": 728.5911109283752
+          },
+          "block_id": "p0002-b0009-e853f77ec5c5",
+          "confidence": 0.99969,
+          "kind": "stamp",
+          "metadata": {
+            "ocr_dpi": 200,
+            "red_pixel_density": 0.1784,
+            "stamp_detector": "rgb-red-region"
+          },
+          "page": 2,
+          "reading_order": 9,
+          "source": "rapidocr",
+          "text": "15 SEP 2026"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 211.39045765017582,
+            "y0": 804.9722761518428,
+            "y1": 815.5807151794434
+          },
+          "block_id": "p0002-b0010-f4fbe4f4aa1a",
+          "confidence": 0.96498,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 36,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 10,
+          "source": "rapidocr",
+          "text": "SYNTHETIC DEMO — NOT A REAL CONTRACT"
+        },
+        {
+          "bbox": {
+            "x0": 516.2155365943909,
+            "x1": 543.696266214353,
+            "y0": 805.8208844890933,
+            "y1": 817.7024557099301
+          },
+          "block_id": "p0002-b0011-025424d29ab1",
+          "confidence": 0.99774,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 6,
+            "ocr_dpi": 200
+          },
+          "page": 2,
+          "reading_order": 11,
+          "source": "rapidocr",
+          "text": "Page 2"
+        }
+      ],
+      "height": 841.8897705078125,
+      "image_path": null,
+      "page": 2,
+      "width": 595.2755737304688
+    },
+    {
+      "blocks": [
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 227.87893056869504,
+            "y0": 48.37471747070921,
+            "y1": 68.74301464958002
+          },
+          "block_id": "p0003-b0000-bee5a5ded86d",
+          "confidence": 0.99837,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 13,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 0,
+          "source": "rapidocr",
+          "text": "GENERAL TERMS"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 195.32479763031003,
+            "y0": 75.53245253472097,
+            "y1": 86.56527811370698
+          },
+          "block_id": "p0003-b0001-c61755ac05a1",
+          "confidence": 0.96802,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 38,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 1,
+          "source": "rapidocr",
+          "text": "Schedule 2 — deliberately multi-column"
+        },
+        {
+          "bbox": {
+            "x0": 50.733714668691704,
+            "x1": 143.32273213201265,
+            "y0": 114.14735579163207,
+            "y1": 127.72622057754593
+          },
+          "block_id": "p0003-b0002-4aa583c63252",
+          "confidence": 0.99917,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 14,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 2,
+          "source": "rapidocr",
+          "text": "5. TERMINATION"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 172.9174054290045,
+            "y0": 137.91037740525738,
+            "y1": 149.3675455981567
+          },
+          "block_id": "p0003-b0003-eb619eea3157",
+          "confidence": 0.99956,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 30,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 3,
+          "source": "rapidocr",
+          "text": "Either party may terminate for"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 207.5854490945361,
+            "y0": 150.6405569633446,
+            "y1": 162.52207326234128
+          },
+          "block_id": "p0003-b0004-9bffa8832898",
+          "confidence": 0.997,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 38,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 4,
+          "source": "rapidocr",
+          "text": "convenience by giving 30 days' written"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 186.02361679077148,
+            "y0": 163.79508462752918,
+            "y1": 174.8279156986992
+          },
+          "block_id": "p0003-b0005-c8eb248505c5",
+          "confidence": 0.9984,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 32,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 5,
+          "source": "rapidocr",
+          "text": "notice. A material breach may be"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 198.28426825499753,
+            "y0": 176.10093804825513,
+            "y1": 187.9824543472518
+          },
+          "block_id": "p0003-b0006-3fe242edab9d",
+          "confidence": 0.99882,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 39,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 6,
+          "source": "rapidocr",
+          "text": "terminated if it is not cured within 15"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 123.02925065785371,
+            "y0": 190.10415094026635,
+            "y1": 201.56130814879765
+          },
+          "block_id": "p0003-b0007-a2f1f017f71f",
+          "confidence": 0.99993,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 18,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 7,
+          "source": "rapidocr",
+          "text": "days after notice."
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 166.57568423085908,
+            "y0": 215.98885816253815,
+            "y1": 229.56773393282006
+          },
+          "block_id": "p0003-b0008-e681f95da812",
+          "confidence": 0.99847,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 18,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 8,
+          "source": "rapidocr",
+          "text": "6. CONFIDENTIALITY"
+        },
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 186.86917668831236,
+            "y0": 240.17621689789274,
+            "y1": 251.2090479690628
+          },
+          "block_id": "p0003-b0009-4e194df8d2dc",
+          "confidence": 0.99267,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 35,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 9,
+          "source": "rapidocr",
+          "text": "Each party will protect the other's"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 171.22627465062837,
+            "y0": 252.48207031861872,
+            "y1": 264.36357563324736
+          },
+          "block_id": "p0003-b0010-dfdd2451c227",
+          "confidence": 0.99926,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 30,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 10,
+          "source": "rapidocr",
+          "text": "confidential information using"
+        },
+        {
+          "bbox": {
+            "x0": 51.15649461746215,
+            "x1": 212.2360395143054,
+            "y0": 265.6365979828033,
+            "y1": 277.0937551913346
+          },
+          "block_id": "p0003-b0011-9b2844fab31a",
+          "confidence": 0.99884,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 38,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 11,
+          "source": "rapidocr",
+          "text": "reasonable care. These duties continue"
+        },
+        {
+          "bbox": {
+            "x0": 51.579274566232606,
+            "x1": 182.64136621731353,
+            "y0": 278.7911256469879,
+            "y1": 289.8239567181579
+          },
+          "block_id": "p0003-b0012-d63df87416cb",
+          "confidence": 0.99992,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 34,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 12,
+          "source": "rapidocr",
+          "text": "for three years after termination."
+        },
+        {
+          "bbox": {
+            "x0": 311.58955812454224,
+            "x1": 420.2442575743176,
+            "y0": 114.99603003509066,
+            "y1": 126.45320921235803
+          },
+          "block_id": "p0003-b0013-2cae0b168e5c",
+          "confidence": 0.99736,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 17,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 13,
+          "source": "rapidocr",
+          "text": "7. SERVICE LEVELS"
+        },
+        {
+          "bbox": {
+            "x0": 311.58955812454224,
+            "x1": 438.84661925339475,
+            "y0": 137.06169217743073,
+            "y1": 148.51886037033006
+          },
+          "block_id": "p0003-b0014-a2d59938cdaa",
+          "confidence": 0.99993,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 30,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 14,
+          "source": "rapidocr",
+          "text": "Supplier targets 99.9% monthly"
+        },
+        {
+          "bbox": {
+            "x0": 311.58955812454224,
+            "x1": 442.2288588435584,
+            "y0": 150.2162198416153,
+            "y1": 161.24905091278532
+          },
+          "block_id": "p0003-b0015-a9dc434b204a",
+          "confidence": 0.99962,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 33,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 15,
+          "source": "rapidocr",
+          "text": "availability, excluding scheduled"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 443.49720967316404,
+            "y0": 162.94641038407056,
+            "y1": 173.9792414552406
+          },
+          "block_id": "p0003-b0016-f92d6a9fda49",
+          "confidence": 0.99992,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 30,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 16,
+          "source": "rapidocr",
+          "text": "maintenance and events outside"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 432.0820961398902,
+            "y0": 175.25226380479654,
+            "y1": 187.55810624115446
+          },
+          "block_id": "p0003-b0017-987a1a449a88",
+          "confidence": 0.9989,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 30,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 17,
+          "source": "rapidocr",
+          "text": "Supplier's reasonable control."
+        },
+        {
+          "bbox": {
+            "x0": 310.7439982270013,
+            "x1": 375.42947317170655,
+            "y0": 203.25867860445092,
+            "y1": 215.98885816253815
+          },
+          "block_id": "p0003-b0018-de210002f6a4",
+          "confidence": 0.99767,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 10,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 18,
+          "source": "rapidocr",
+          "text": "8. NOTICES"
+        },
+        {
+          "bbox": {
+            "x0": 311.58955812454224,
+            "x1": 451.53003968309696,
+            "y0": 226.17301499024958,
+            "y1": 237.2058460614196
+          },
+          "block_id": "p0003-b0019-9787576a1fc4",
+          "confidence": 0.9856,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 35,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 19,
+          "source": "rapidocr",
+          "text": "Contract notices must be in writing"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 462.5223403177173,
+            "y0": 238.47886841097556,
+            "y1": 250.36037372560418
+          },
+          "block_id": "p0003-b0020-58d2dbd078a0",
+          "confidence": 0.99989,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 37,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 20,
+          "source": "rapidocr",
+          "text": "and delivered by recorded mail or the"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 459.5628696930298,
+            "y0": 251.2090479690628,
+            "y1": 264.36357563324736
+          },
+          "block_id": "p0003-b0021-4596e231e0ea",
+          "confidence": 0.99994,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 34,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 21,
+          "source": "rapidocr",
+          "text": "agreed contract-management portal."
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 399.1051942360291,
+            "y0": 279.21547375308523,
+            "y1": 291.94565331117246
+          },
+          "block_id": "p0003-b0022-eadbcd14e0bf",
+          "confidence": 0.99879,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 13,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 22,
+          "source": "rapidocr",
+          "text": "9. SIGNATURES"
+        },
+        {
+          "bbox": {
+            "x0": 312.01232709001835,
+            "x1": 460.40845155715937,
+            "y0": 302.1298101388839,
+            "y1": 313.1626412100539
+          },
+          "block_id": "p0003-b0023-29c2963c0f4a",
+          "confidence": 0.99988,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 37,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 23,
+          "source": "rapidocr",
+          "text": "Signed for Northstar Analytics Ltd by"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 468.0185126016162,
+            "y0": 314.8599896969711,
+            "y1": 325.8928207681411
+          },
+          "block_id": "p0003-b0024-9da35e2eb6f0",
+          "confidence": 0.98587,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 36,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 24,
+          "source": "rapidocr",
+          "text": "Maya Chen, Director. Signed for Acme"
+        },
+        {
+          "bbox": {
+            "x0": 312.01232709001835,
+            "x1": 450.68445781896736,
+            "y0": 328.0145173611557,
+            "y1": 339.0473484323257
+          },
+          "block_id": "p0003-b0025-6be2ceca5e5d",
+          "confidence": 0.98648,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 33,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 25,
+          "source": "rapidocr",
+          "text": "Data Systems Ltd by Oliver Grant,"
+        },
+        {
+          "bbox": {
+            "x0": 311.16676719247744,
+            "x1": 349.21705044817264,
+            "y0": 339.8960226757843,
+            "y1": 352.6262242026076
+          },
+          "block_id": "p0003-b0026-7f02f91ae39c",
+          "confidence": 0.99998,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 9,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 26,
+          "source": "rapidocr",
+          "text": "Director."
+        },
+        {
+          "bbox": {
+            "x0": 53.69317980173202,
+            "x1": 213.5043683773224,
+            "y0": 806.2452325951906,
+            "y1": 816.429411391638
+          },
+          "block_id": "p0003-b0027-e5e1242ea548",
+          "confidence": 0.98983,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 36,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 27,
+          "source": "rapidocr",
+          "text": "SYNTHETIC DEMO — NOT A REAL CONTRACT"
+        },
+        {
+          "bbox": {
+            "x0": 517.9066563894727,
+            "x1": 545.3873860094349,
+            "y0": 804.1235799396482,
+            "y1": 817.2781076038327
+          },
+          "block_id": "p0003-b0028-abe052eaa655",
+          "confidence": 0.99235,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 6,
+            "ocr_dpi": 200
+          },
+          "page": 3,
+          "reading_order": 28,
+          "source": "rapidocr",
+          "text": "Page 3"
+        }
+      ],
+      "height": 841.8897705078125,
+      "image_path": null,
+      "page": 3,
+      "width": 595.2755737304688
+    }
+  ],
+  "parser": "pymupdf-native+rapidocr-v3",
+  "sha256": "f070d063415e53c82abebedede2f61fa7db721fa85dbb2fab17eb0f1849c47f6"
+}

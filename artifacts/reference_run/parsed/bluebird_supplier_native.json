@@ -1,0 +1,256 @@
+{
+  "document_id": "doc_c9df6b40d260d244",
+  "file_name": "bluebird_supplier_native.pdf",
+  "pages": [
+    {
+      "blocks": [
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 287.3600158691406,
+            "y0": 44.599998474121094,
+            "y1": 72.13999938964844
+          },
+          "block_id": "p0001-b0000-1aeb215d70c2",
+          "confidence": 1.0,
+          "kind": "title",
+          "metadata": {
+            "char_count": 18,
+            "font_size": 20.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 0,
+          "source": "native",
+          "text": "SUPPLIER AGREEMENT"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 146.93597412109375,
+            "y0": 74.4000015258789,
+            "y1": 85.39199829101562
+          },
+          "block_id": "p0001-b0001-1e56f848226b",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 22,
+            "font_size": 8.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 1,
+          "source": "native",
+          "text": "Agreement BB-2026-1001"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 445.84991455078125,
+            "y0": 111.25,
+            "y1": 138.99000549316406
+          },
+          "block_id": "p0001-b0002-856c8f061234",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 133,
+            "font_size": 10.0,
+            "line_count": 2
+          },
+          "page": 1,
+          "reading_order": 2,
+          "source": "native",
+          "text": "This Supplier Agreement is entered into on 1 October 2026 between Bluebird Retail PLC\n(\"Buyer\") and Cedar Logistics Ltd (\"Supplier\")."
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 97.39500427246094,
+            "y0": 152.22999572753906,
+            "y1": 167.3769989013672
+          },
+          "block_id": "p0001-b0003-e63589faa371",
+          "confidence": 1.0,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 7,
+            "font_size": 11.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 3,
+          "source": "native",
+          "text": "1. TERM"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 451.3898620605469,
+            "y0": 174.25,
+            "y1": 201.99000549316406
+          },
+          "block_id": "p0001-b0004-9670c7df6ba9",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 158,
+            "font_size": 10.0,
+            "line_count": 2
+          },
+          "page": 1,
+          "reading_order": 4,
+          "source": "native",
+          "text": "The fixed term is 24 months. This Agreement does not renew automatically and expires at\nthe end of the fixed term unless the parties sign a written extension."
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 121.23200225830078,
+            "y0": 215.22999572753906,
+            "y1": 230.3769989013672
+          },
+          "block_id": "p0001-b0005-2667b486beb7",
+          "confidence": 1.0,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 10,
+            "font_size": 11.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 5,
+          "source": "native",
+          "text": "2. CHARGES"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 443.0599060058594,
+            "y0": 237.25,
+            "y1": 264.989990234375
+          },
+          "block_id": "p0001-b0006-91e17b6957d8",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 104,
+            "font_size": 10.0,
+            "line_count": 2
+          },
+          "page": 1,
+          "reading_order": 6,
+          "source": "native",
+          "text": "The annual logistics charge is GBP 72,000. Buyer will pay undisputed invoices within 45\ndays of receipt."
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 142.6160125732422,
+            "y0": 278.2300109863281,
+            "y1": 293.37701416015625
+          },
+          "block_id": "p0001-b0007-bb3a2e3109ac",
+          "confidence": 1.0,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 14,
+            "font_size": 11.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 7,
+          "source": "native",
+          "text": "3. TERMINATION"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 432.73992919921875,
+            "y0": 300.25,
+            "y1": 313.989990234375
+          },
+          "block_id": "p0001-b0008-ee598fd1deb5",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 85,
+            "font_size": 10.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 8,
+          "source": "native",
+          "text": "Either party may terminate this Agreement for convenience on 60 days' written notice."
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 161.56900024414062,
+            "y0": 327.22998046875,
+            "y1": 342.3769836425781
+          },
+          "block_id": "p0001-b0009-995490b94620",
+          "confidence": 1.0,
+          "kind": "heading",
+          "metadata": {
+            "char_count": 16,
+            "font_size": 11.0,
+            "line_count": 1
+          },
+          "page": 1,
+          "reading_order": 9,
+          "source": "native",
+          "text": "4. GOVERNING LAW"
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 428.07989501953125,
+            "y0": 349.2499694824219,
+            "y1": 376.9899597167969
+          },
+          "block_id": "p0001-b0010-662506adeac5",
+          "confidence": 1.0,
+          "kind": "paragraph",
+          "metadata": {
+            "char_count": 106,
+            "font_size": 10.0,
+            "line_count": 2
+          },
+          "page": 1,
+          "reading_order": 10,
+          "source": "native",
+          "text": "This Agreement is governed by the laws of Scotland and the courts of Scotland have\nexclusive jurisdiction."
+        },
+        {
+          "bbox": {
+            "x0": 54.0,
+            "x1": 541.2756958007812,
+            "y0": 806.3997802734375,
+            "y1": 815.8777465820312
+          },
+          "block_id": "p0001-b0011-06c7904ab2bc",
+          "confidence": 1.0,
+          "kind": "footer",
+          "metadata": {
+            "char_count": 43,
+            "font_size": 7.0,
+            "line_count": 2
+          },
+          "page": 1,
+          "reading_order": 11,
+          "source": "native",
+          "text": "SYNTHETIC DEMO — NOT A REAL CONTRACT\nPage 1"
+        }
+      ],
+      "height": 841.8897705078125,
+      "image_path": null,
+      "page": 1,
+      "width": 595.2755737304688
+    }
+  ],
+  "parser": "pymupdf-native+rapidocr-v3",
+  "sha256": "c9df6b40d260d244a947caad02aea7ae467732fda1070c785cc89a2fb4b53152"
+}

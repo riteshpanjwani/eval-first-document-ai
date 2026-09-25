@@ -1,0 +1,22 @@
+{
+  "api_cost_usd": 0.0,
+  "dataset": "eval-first-document-ai-synthetic-v1",
+  "fixture_count": 3,
+  "fixture_sha256": {
+    "bluebird_supplier_native.pdf": "c9df6b40d260d244a947caad02aea7ae467732fda1070c785cc89a2fb4b53152",
+    "harbor_nda_scan.pdf": "f430d1fb0a37316a40fa621ca1872505f7c3801e5125b401bb041efeb2ba5696",
+    "northstar_msa_scan.pdf": "f070d063415e53c82abebedede2f61fa7db721fa85dbb2fab17eb0f1849c47f6"
+  },
+  "network_calls": 0,
+  "notes": "Small synthetic benchmark; results are not a production accuracy claim. OCR CER/WER collapse segmentation whitespace but preserve canonical reading order.",
+  "package_versions": {
+    "onnxruntime": "1.30.0",
+    "pydantic": "2.13.5",
+    "pymupdf": "1.28.2",
+    "rapidocr": "3.9.2"
+  },
+  "parser": "pymupdf-native+rapidocr-v3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7",
+  "query_count": 3
+}

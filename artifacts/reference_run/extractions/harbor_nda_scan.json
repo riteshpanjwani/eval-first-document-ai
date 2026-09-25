@@ -1,0 +1,144 @@
+{
+  "document_id": "doc_f430d1fb0a37316a",
+  "fields": {
+    "effective_date": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 53.270399852961575,
+            "x1": 457.871749897948,
+            "y0": 110.75263684906159,
+            "y1": 125.18018686280209
+          },
+          "block_id": "p0001-b0002-d41d95e06b8e",
+          "document_id": "doc_f430d1fb0a37316a",
+          "page": 1,
+          "quote": "This Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "20 August 2026"
+    },
+    "fees": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "governing_law": {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 52.42483446377351,
+            "x1": 423.20372819900507,
+            "y0": 363.2347071676803,
+            "y1": 377.2379090753235
+          },
+          "block_id": "p0001-b0014-413f8e6bd97c",
+          "document_id": "doc_f430d1fb0a37316a",
+          "page": 1,
+          "quote": "This Agreement is governed by the laws of the State of California, without regard to"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": "State of California"
+    },
+    "initial_term": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "parties": {
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 53.270399852961575,
+            "x1": 457.871749897948,
+            "y0": 110.75263684906159,
+            "y1": 125.18018686280209
+          },
+          "block_id": "p0001-b0002-d41d95e06b8e",
+          "document_id": "doc_f430d1fb0a37316a",
+          "page": 1,
+          "quote": "This Mutual Non-Disclosure Agreement is entered into on 20 August 2026 between Harbor"
+        },
+        {
+          "bbox": {
+            "x0": 52.847614412543955,
+            "x1": 274.80760373186405,
+            "y0": 125.18018686280209,
+            "y1": 138.75905164871597
+          },
+          "block_id": "p0001-b0003-35b4a39d5f70",
+          "document_id": "doc_f430d1fb0a37316a",
+          "page": 1,
+          "quote": "Labs Ltd and Priya Shah (together, the \"Parties\")."
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": [
+        "Harbor Labs Ltd",
+        "Priya Shah"
+      ]
+    },
+    "payment_terms": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "renewal_terms": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "signatures_present": {
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "bbox": {
+            "x0": 52.00205451500305,
+            "x1": 229.14725943171206,
+            "y0": 419.6718848730864,
+            "y1": 431.9777163250763
+          },
+          "block_id": "p0001-b0016-a244089f86ec",
+          "document_id": "doc_f430d1fb0a37316a",
+          "page": 1,
+          "quote": "For Harbor Labs Ltd: Elena Torres, Director"
+        }
+      ],
+      "reason": null,
+      "status": "extracted",
+      "value": true
+    },
+    "stamps_present": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    },
+    "termination_notice": {
+      "confidence": 0.0,
+      "evidence": [],
+      "reason": "No supported value found by deterministic rules.",
+      "status": "missing",
+      "value": null
+    }
+  },
+  "schema_version": "1.0",
+  "warnings": []
+}

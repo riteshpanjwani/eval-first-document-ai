@@ -1,0 +1,31 @@
+{
+  "dataset": "eval-first-document-ai-synthetic-v1",
+  "schema_version": "1.0",
+  "review_status": "author-verified",
+  "provenance": "Generated from fictional clauses in scripts/generate_fixtures.py",
+  "documents": [
+    {
+      "document_id": "northstar_msa_scan",
+      "file": "data/samples/northstar_msa_scan.pdf",
+      "sha256": "f070d063415e53c82abebedede2f61fa7db721fa85dbb2fab17eb0f1849c47f6",
+      "synthetic": true
+    },
+    {
+      "document_id": "bluebird_supplier_native",
+      "file": "data/samples/bluebird_supplier_native.pdf",
+      "sha256": "c9df6b40d260d244a947caad02aea7ae467732fda1070c785cc89a2fb4b53152",
+      "synthetic": true
+    },
+    {
+      "document_id": "harbor_nda_scan",
+      "file": "data/samples/harbor_nda_scan.pdf",
+      "sha256": "f430d1fb0a37316a40fa621ca1872505f7c3801e5125b401bb041efeb2ba5696",
+      "synthetic": true
+    }
+  ],
+  "annotation_counts": {
+    "documents": 3,
+    "fields": 30,
+    "queries": 3
+  }
+}
