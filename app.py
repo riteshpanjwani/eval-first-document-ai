@@ -130,7 +130,12 @@ with overview_tab:
 with parse_tab:
     selected = st.selectbox("Contract", sorted(documents), key="parse_document")
     document = documents[selected]
-    page_number = st.slider("Page", 1, len(document.pages), 1)
+    page_count = len(document.pages)
+    if page_count == 1:
+        page_number = 1
+        st.caption("Page 1 of 1")
+    else:
+        page_number = st.slider("Page", 1, page_count, 1, key="parse_page")
     image_col, data_col = st.columns([1.25, 1])
     with image_col:
         st.image(

@@ -2,7 +2,7 @@
 
 [![Python 3.11–3.13](https://img.shields.io/badge/python-3.11–3.13-3776AB.svg)](https://www.python.org/)
 [![CI](https://github.com/riteshpanjwani/eval-first-document-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/riteshpanjwani/eval-first-document-ai/actions/workflows/ci.yml)
-[![Tests](https://img.shields.io/badge/tests-37%20passing-16A34A.svg)](#verification)
+[![Tests](https://img.shields.io/badge/tests-39%20passing-16A34A.svg)](#verification)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2563EB.svg)](LICENSE)
 
 An evaluation-first reference implementation for scanned-document OCR, layout parsing,
@@ -225,7 +225,7 @@ make check
 Current local result:
 
 ```text
-37 passed
+39 passed
 All checks passed (Ruff)
 ```
 
